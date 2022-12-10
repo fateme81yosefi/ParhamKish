@@ -1,0 +1,118 @@
+.textContainer {
+  position: absolute;
+  top: 31%;
+  width: 50%;
+  left: 25%;
+  color: white;
+  line-height: 2.5;
+  text-align: right;
+}
+.textContainer {
+  top: 6%;
+  width: 73%;
+  left: 8%;
+}
+.textContainer p {
+  text-align: justify;
+}
+.pahamenglitt {
+  font-size: 1rem !important;
+}
+.textContainer h1 {
+  font-size: 3rem;
+  margin-top: 50px;
+  opacity: 0.8;
+  font-weight: 900;
+  font-family: irSansWebBold;
+  line-height: 4.5rem;
+}
+
+.textContainer h2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+
+}
+.paraInHead {
+  height: 50vw;
+  overflow-y: scroll;
+}
+.paraInHead::-webkit-scrollbar {
+  display: none;
+}
+.parhamTitle1 {
+  background-image: linear-gradient(
+    -225deg,
+    #c8b182 0%,
+    #fbfcfe9d 19%,
+    #fbfcfe78 67%,
+    #d0ad67 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s ease-out infinite;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+@media screen and (min-width: 400px) {
+  .textContainer {
+    top: 12vh;
+    width: 73%;
+    left: 8%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .textContainer {
+    top: 12vh;
+    width: 47%;
+    left: 20%;
+  }
+  .paraInHead {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .textContainer {
+    top: 12vh;
+    width: 46%;
+    left: 12%;
+  }
+  .textContainer h2 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.9rem;
+}
+}
+
+@media screen and (min-width: 1000px) {
+  .textContainer h1 {
+    height: 154px;
+    font-size: 7rem;
+    padding: 20px 0;
+    margin-bottom: 2rem;
+
+  }
+
+  .textContainer {
+    top: 8vh;
+    width: 55%;
+    left: 9%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .textContainer {
+    top: 14vh;
+    width: 53%;
+    left: 13%;
+  }
+}

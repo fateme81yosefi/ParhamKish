@@ -1,0 +1,66 @@
+.maskEcom {
+  -webkit-mask-image: url(https://s6.uupload.ir/files/top-icon_mv5a.png);
+  mask-image: url(https://s6.uupload.ir/files/top-icon_mv5a.png);
+  -webkit-mask-size: 300px;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform: translateY(-35px) scale(1.1);
+  margin-top: 20px;
+}
+
+.maskEcom img {
+  width: 300px;
+
+}
+
+.containEcom {
+  background-color: #2e2e2e;
+}
+
+.ecomDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  flex-direction: column;
+}
+.titleEcNum {
+  font-size: 4rem;
+  color: #d0ad67;
+  font-weight: 900;
+  direction: ltr !important;
+  font-family: fantasy;
+}
+.titleEcdesc {
+  color: white;
+  margin-bottom: 10%;
+  padding: 0px 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+  .ecomDisplayRight {
+    align-items: flex-end;
+  }
+  .ecomDisplayLeft {
+    align-items: flex-start;
+  }
+  .ecomDisplay {
+    padding: 0 10px;
+  }
+  .maskEcom {
+    margin-right: 10px;
+  }
+  .titleEcNum {
+    margin-left: 10px;
+    margin-top: 20%;
+    font-size: 6rem;
+  }
+  .titleEcdesc {
+    margin-left: 10px;
+    padding: 0;
+    text-align: end;
+    z-index: 0;
+    position: relative;
+  }
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: irSansWeb;
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/IRANSansWeb.ttf');  }
+    @font-face {
+        font-family: irSansWebBold;
+        font-weight: bold;
+        src: url('./fonts/IRANSansWeb_Black.ttf'); 
+       }
+       @font-face {
+        font-family: irSansWe;
+        font-weight: bolder;
+        src: url('./fonts/IRANSansWeb_Black.ttf'); 
+       }
+  *{
+    font-family: irSansWeb;
+    user-select: none;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background:  #383838; 
+    
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #2e2e2e; 
+    border-radius: 13px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5e5e5e; 
+
+  }
