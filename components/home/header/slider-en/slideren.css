@@ -1,0 +1,56 @@
+.slick-arrow {
+  display: none;
+}
+.slick-slide {
+  background-color: #2e2e2e;
+}
+.btnSlideren {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 100;
+  
+}
+.prev-fa1{
+  font-weight: 100;
+  margin-right: 10px ;
+}
+.contButtonSlideren {
+  position: absolute;
+  margin-right: 50%;
+  transform: translate(50%, 28vh);
+  margin-top: -40vh;
+  white-space: nowrap;
+  z-index: 12;
+  direction: ltr;
+}
+.prev-fa1 {
+  transition: 1s margin-right;
+}
+.next-en1 {
+  transition: 1s margin-left;
+  margin-right: 10px ;
+
+}
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* .contButtonSlideren {
+    position: absolute;
+    transform: translate(0%, 28vh);
+    left: 160px;
+    margin-top: -61vh;
+    white-space: nowrap;
+    z-index: 23;
+  } */
+}
+@media screen and (min-width: 1200px) {
+  .contButtonSlideren {
+    left: 120px;
+    margin-top: -70vh;
+
+  }
+}

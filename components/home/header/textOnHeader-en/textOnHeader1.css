@@ -1,0 +1,250 @@
+.textContainer1 {
+  position: absolute;
+  top: 31%;
+  width: 50%;
+  left: 25%;
+  color: white;
+  line-height: 2.5;
+  text-align: right;
+}
+.textContainer1 {
+  top: 6%;
+  width: 73%;
+  left: 23%;
+}
+.textContainer1 p {
+  text-align: justify;
+}
+.pahamenglitt {
+  font-size: 1rem !important;
+}
+.textContainer1 h1 {
+  font-size: 3.5rem;
+  margin-top: 50px;
+  font-weight: 900;
+  font-family: irSansWebBold;
+  line-height: 4.5rem;
+  opacity: 0.8;
+}
+.textContainer1 h1 b{
+  font-family: irSansWebBold;
+}
+.textContainer1 h2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 3rem;
+  font-family: irSansWebBold;
+
+}
+.textContainer1 h2 b{
+  
+  font-family: irSansWebBold;
+}
+.paraInHead {
+  height: 70vw;
+  overflow-y: scroll;
+}
+.paraInHead::-webkit-scrollbar {
+  display: none;
+}
+.parhamTitle {
+  opacity: 0.8;
+  /* text-transform: uppercase; */
+  background-image: linear-gradient(
+    -225deg,
+    #c8b182 0%,
+    #fbfcfe9d 19%,
+    #fbfcfe78 67%,
+    #d0ad67 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s ease-out infinite;
+  /* display: inline-block; */
+  /* font-size: 190px; */
+}
+.slick-slide img {
+  height: 41px;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+@media screen and (min-width: 400px) {
+  .textContainer1 {
+    top: 12vh;
+    width: 73%;
+  }
+  .spec1{
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .textContainer1 h1 b{
+    font-size: 4.1rem;
+    height: auto;
+
+  }
+  .spec1 {
+    font-size: 1.2rem;
+}
+}
+@media screen and (min-width: 700px) {
+  .textContainer1 {
+    top: 12vh;
+    width: 72%;
+    left: 20%;
+  }
+  .textContainer1 p b{
+    font-size: 1.5rem;
+
+  }
+  .textContainer1 h1 b{
+    font-size: 5rem;
+    height: auto;
+
+  }
+  .textContainer1 h1{
+    line-height: 6.5rem;
+
+  }
+  .paraInHead {
+    height: auto;
+  }
+  .en-menue-ul {
+    padding: 0 10px !important;
+    margin: 0 !important;
+    /* left: -4px; */
+   }
+  .en-menue-ul li{
+   width: 100%;
+   padding: 0 10px !important;
+   margin: 0 !important;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .textContainer1 {
+    top: 26vh;
+    width: 74%;
+    left: 27%;
+  }
+  .textContainer1 h1 b{
+    font-size: 5.5rem;
+
+  }
+  .textContainer1 p b{
+    font-size: 1.65rem;
+    height: auto;
+
+  }
+}
+
+@media screen and (min-width: 890px) {
+  .textContainer1 {
+    /* top: 12vh;
+    width: 54%;
+    left: 38%;*/
+  } 
+}
+@media screen and (min-width: 1000px) {
+  .textContainer h2 {
+    padding: 0 0 25px 0;
+  }
+  .textContainer1 {
+    top: 26vh;
+    width: 70%;
+    left: 27%;
+  }
+  .textContainer1 h1{
+    line-height: 7.5rem;
+  }
+  .textContainer1 h1 b{
+    font-size: 6.5rem;
+
+  }
+  .textContainer1 p b{
+    font-size: 2rem;
+    height: auto;
+
+  }
+}
+@media screen and (min-width: 1100px) {
+  .textContainer1 {
+    top: 22vh;
+    width: 63%;
+    left: 33%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .textContainer1{
+    top:0;
+    width: 65%;
+  }
+  .en-drop-first{
+    margin-right: -20px;
+  }
+
+  .headerInLargeren{
+    position: relative;
+    z-index: 234;
+    left: -140px;
+  }
+  .ulcollectionEn{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 18px;
+
+  }
+  .ulcollectionEn li .rs-dropdown button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .ulcollectionEn li .rs-dropdown button svg{
+   margin-left: 10px;
+  }
+
+}
+@media screen and (min-width: 1300px) {
+  .textContainer1 {
+    /* top: 22vh; */
+    width: 51%;
+    left: 30%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .textContainer1 h1 {
+    font-size: 9.85rem !important;
+    /* height: 133px; */
+    padding: 68px 0;
+  }
+  .spacebetween {
+    word-spacing: -1px !important;
+  }
+  .headerInLargeren{
+    left: -150px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .headerInLargeren{
+    left: -120px;
+  }
+}
+@media screen and (min-width: 1700px) {
+
+.headerInLargeren{
+  left: -190px;
+}
+
+}

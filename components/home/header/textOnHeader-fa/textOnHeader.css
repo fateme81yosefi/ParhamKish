@@ -1,0 +1,317 @@
+.textContainer {
+  position: absolute;
+  top: 31%;
+  width: 50%;
+  left: 25%;
+  color: white;
+  line-height: 2.5;
+  text-align: right;
+}
+.textContainer {
+  top: 6%;
+  width: 73%;
+  left: 8%;
+}
+.textContainer p {
+  text-align: justify;
+}
+.pahamenglitt {
+  font-size: 1rem !important;
+}
+.textContainer h1 {
+  font-size: 3rem;
+  margin-top: 50px;
+  opacity: 0.8;
+  font-weight: 900;
+  font-family: irSansWebBold;
+  line-height: 5.5rem;
+  font-family: irSansWebBolder !important;
+ 
+}
+.parhamTitle1 b{
+  font-family: irSansWebBolder !important;
+}
+.textContainer h2 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  line-height: 3rem;
+  font-family: irSansWebBolder !important;
+
+}
+.paraInHead {
+  height: 50vw;
+  overflow-y: scroll;
+}
+.paraInHead::-webkit-scrollbar {
+  display: none;
+}
+.parhamTitle1 {
+  background-image: linear-gradient(
+    -225deg,
+    #c8b182 0%,
+    #fbfcfe9d 19%,
+    #fbfcfe78 67%,
+    #d0ad67 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s ease-out infinite;
+}
+.spec {
+  font-size: 1rem;
+  font-weight: bolder;
+  margin-bottom: -58px;
+  margin-top: 55px;
+  opacity: 0.6;
+}
+.headerInLarger{
+  display: none;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+@media screen and (min-width: 370px) {
+  .textContainer h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 400px) {
+  .textContainer {
+    top: 12vh;
+    width: 73%;
+    left: 8%;
+  }
+  .textContainer h1 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .textContainer h1 {
+    font-size: 4.5rem;
+
+  }
+  .spec{
+    font-size: 1.3rem;
+
+
+  }
+}
+@media screen and (min-width: 600px) {
+  .textContainer h1 {
+    font-size: 5.9rem;
+    line-height: 7.5rem;
+
+  }
+  .spec{
+    font-size: 1.7rem;
+
+  }
+}
+@media screen and (min-width: 700px) {
+  .textContainer {
+    top: 12vh;
+    width: 70%;
+    left: 10%;
+  }
+  .paraInHead {
+    height: auto;
+  }
+  .fa-menue-ul {
+    padding: 0 10px !important;
+    margin: 0 !important;
+    left: -4px;
+   }
+  .fa-menue-ul li{
+   width: 100%;
+   padding: 0 10px !important;
+   margin: 0 !important;
+  }
+  .textContainer h1 {
+    font-size: 6.6rem;
+    line-height: 8rem;
+    white-space: nowrap;
+  }
+  .spec{
+    font-size: 2rem;
+
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .textContainer {
+    top: 12vh;
+    width: 48%;
+    left: 12%;
+  }
+  .textContainer h1 {
+    font-size: 5.1rem;
+    line-height: 8rem;
+  }
+  .spec{
+    font-size: 1.45rem;
+
+  }
+}
+@media screen and (min-width: 870px) {
+  .textContainer h2 {
+    font-size: 1.5rem;
+  }
+  .textContainer h1 {
+    font-size: 5.7rem;
+    line-height: 8.5rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .textContainer h1 {
+    font-size: 6.8rem;
+    line-height: 8.5rem;
+  }
+  .textContainer{
+    top: 12vh;
+    width: 56%;
+    left: 8%;
+  }
+  .spec{
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .textContainer h1 {
+    height: 154px;
+    font-size: 7.5rem;
+    line-height: 7.5rem;
+    padding: 20px 0;
+    margin-bottom: 2rem;
+  }
+
+  .textContainer {
+    top: 8vh;
+    width: 55%;
+    left: 9%;
+  }
+  .textContainer h2 {
+    font-size: 1.7rem;
+  }
+  .spec {
+    font-size: 1.9rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .textContainer {
+    top: 14vh;
+    width: 53%;
+    left: 13%;
+  }
+  .spec {
+    font-size: 2.3rem;
+  }
+  .textContainer h1 {
+    height: 154px;
+    font-size: 8rem;
+    line-height: 7.5rem;
+    padding: 20px 0;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+ 
+  .textContainer {
+    top: 0;
+    left: 16%;
+    left: 6%;
+
+    width: 60%;
+  }
+  .textContainer h1{
+    height: 250px;
+    letter-spacing: -11px;
+    font-size: 10rem !important;
+    padding: 64px 16px !important;
+
+  }
+  .ulcollection {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .rs-icon {
+    margin-right: 14px;
+    margin-left: -15px;
+}
+  .absoluting{
+    position: absolute;
+  }
+  .ulcollection li{
+    margin-left: 20px;
+  }
+  .headerInLarger{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 47px;
+  position: relative;
+  z-index: 234;
+  }
+  .fa-drop-first{
+    margin-right: -15px;
+  }
+}
+@media screen and (min-width: 1221px) {
+  .textContainer h1{
+    height: 250px;
+    letter-spacing: -11px;
+    font-size: 11rem !important;
+    padding: 64px 16px !important;
+
+  }
+  .spec{
+    font-size: 2.7rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .textContainer h1{
+    font-size: 11rem !important;
+  }
+  .textContainer {
+    top: 0;
+    left: 11%;
+    width: 56%;
+  }
+  .headerLogo{
+    display: flex !important;
+  }
+  .textContainer h1{
+    font-size: 11rem !important;
+  }
+  .containBlackImage {
+    width: 215px !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .spacebetween {
+    word-spacing: -1px !important;
+  }
+  .textContainer {
+    top: 0;
+    left: 20%;
+    width: 56%;
+  }
+  .textContainer h1{
+    font-size: 12rem !important;
+  }
+  .spec {
+    font-size: 3rem;
+}
+}

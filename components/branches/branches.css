@@ -1,0 +1,277 @@
+.containBranch {
+  background-color: #2e2e2e;
+  padding-bottom: 15%;
+}
+
+.contMap {
+  position: relative;
+}
+.iranDot {
+  position: absolute;
+  top: 38%;
+  right: 30%;
+}
+.cityy {
+  width: 6px;
+  position: absolute;
+}
+.city1 {
+  top: 8px;
+  right: 7px;
+}
+.city2 {
+  top: 10px;
+  right: 19px;
+}
+.city3 {
+  top: 20px;
+  right: 15px;
+}
+.city4 {
+  top: 25px;
+  right: 3px;
+}
+.Dots {
+  position: absolute;
+}
+.infoAddress {
+  background-color: #0000007a;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 3rem;
+  color: white;
+  border-radius: 18px;
+  font-size: 9px;
+}
+
+.indir {
+  direction: rtl !important;
+}
+
+.infoAddress .row {
+  width: 100%;
+  text-align: center;
+}
+.city {
+  color: #d0ad67;
+}
+.rowArtificial {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.rowArtificial .col-4 {
+  text-align: start;
+  white-space: nowrap;
+}
+.irrr {
+  width: 10%;
+}
+.linespe {
+  height: 122vh;
+  margin-bottom: -122vh;
+}
+@media screen and (min-width: 368px) {
+  .city3 {
+    top: 23px;
+  }
+  .city1 {
+    top: 8px;
+    right: 7px;
+  }
+  .city2 {
+    top: 7px;
+    right: 19px;
+  }
+
+  .cityy {
+    width: 9px;
+  }
+}
+@media screen and (min-width: 440px) {
+  .city3 {
+    top: 29px;
+  }
+  .city1 {
+    top: 10px;
+    right: 10px;
+  }
+  .city2 {
+    top: 9px;
+    right: 25px;
+  }
+  .infoAddress{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 470px) {
+  .city4 {
+    top: 34px;
+    right: 3px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .rowArtificial {
+    flex-direction: row;
+  }
+  .city3 {
+    right: 20px;
+    top: 33px;
+  }
+  .city2 {
+    top: 13px;
+    right: 26px;
+  }
+  .city1 {
+    top: 13px;
+  }
+  .city4 {
+    top: 38px;
+    right: 3px;
+}
+}
+
+
+@media screen and (min-width: 550px) {
+  .city4 {
+    top: 42px;
+    right: 6px;
+}
+
+}
+@media screen and (min-width: 768px) {
+  .city2 {
+    top: 16px;
+    right: 37px;
+  }
+  .city1 {
+    top: 17px;
+    right: 17px;
+  }
+  .city3 {
+    right: 28px;
+    top: 51px;
+  }
+  .city4 {
+    top: 56px;
+    right: 11px;
+}
+}
+@media screen and (min-width: 776px) {
+  .cityy {
+    width: 12px;
+  }
+  .city1 {
+    top: 17px;
+    right: 16px;
+  }
+  .city2 {
+    top: 17px;
+    right: 35px;
+  }
+  .city3 {
+    top: 50px;
+    right: 28px;
+  }
+}
+@media screen and (min-width: 992px) {
+  
+  .infoAddress {
+    width: 53%;
+    margin-right: 42%;
+    font-size: 80%;
+  }
+  .infoAddress {
+    z-index: 2;
+    position: relative;
+    width: 50%;
+    margin-right: 51%;
+    margin-top: -34%;
+  }
+  .cityy {
+    width: 12px;
+  }
+  .city1 {
+    top: 23px;
+    right: 21px;
+  }
+
+  .city2 {
+    top: 20px;
+    right: 53px;
+  }
+  .city3 {
+    top: 70px;
+    right: 34px;
+  }
+  .city4 {
+    top: 77px;
+    right: 11px;
+}
+  .rowArtificial {
+    font-size: 100%;
+
+    /* flex-direction: column-reverse; */
+    /* text-align: center !important; */
+  }
+  .contant{
+    text-align: justify;
+
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cityy {
+    width: 18px;
+  }
+  .city1 {
+    top: 29px;
+    right: 23px;
+  }
+  .city2 {
+    top: 27px;
+    right: 53px;
+  }
+  .city3 {
+    top: 77px;
+    right: 46px;
+  }
+  .city4 {
+    top: 89px;
+    right: 11px;
+}
+}
+
+@media screen and (min-width: 1400px) {
+  .cityy {
+    width: 18px;
+  }
+  .city1 {
+    top: 29px;
+    right: 33px;
+  }
+  .city2 {
+    top: 30px;
+    right: 63px;
+  }
+  .city3 {
+    top: 77px;
+    right: 56px;
+  }
+  .rowArtificial {
+    flex-direction: row;
+    text-align: end !important;
+  }
+  .city4 {
+    top: 106px;
+    right: 23px;
+    top: 89px;
+
+}
+}

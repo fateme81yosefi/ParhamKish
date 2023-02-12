@@ -1,0 +1,139 @@
+.containProducts {
+  background-color: #2e2e2e;
+}
+.imageProduct {
+  width: 80%;
+}
+.logoIm {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 34%;
+  display: flex;
+  /* justify-content: center !important; */
+}
+.productText {
+  color: white;
+  display: flex;
+  /* height: 50vh; */
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.productImage {
+  text-align: right;
+  color: white;
+  line-height: 2.6rem;
+  display: flex;
+  /* height: 50vh; */
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.dirnorm {
+  direction: ltr !important;
+}
+.dirRev {
+  direction: rtl !important;
+}
+.borderBottColor {
+  border-bottom: 1px solid #383838;
+  /* margin-bottom: 12%; */
+  /* margin-top: 12%; */
+}
+.containTitle {
+  text-align: center;
+}
+.containTitle {
+  font-size: 2rem;
+  text-align: center !important;
+  font-weight: 900;
+  padding-top: 10%;
+  color: white;
+  margin-bottom: 1%;
+}
+.productText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.productText p {
+  width: 80%;
+  height: 100%;
+  line-height: 1.8rem;
+
+}
+.productImage div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productImage div img {
+  width: 80%;
+}
+.lineproducts {
+  border-right: 1px solid #383838;
+  border-left: 1px solid #383838;
+  height: 288vh;
+  margin-bottom: -291vh;
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  .imageProduct {
+    width: 100%;
+  }
+  .lineproducts {
+    display: block;
+  }
+  .productImage div img {
+    width: 100%;
+  }
+  .productImage {
+    padding: 0 !important;
+  }
+  .borderBottColor {
+    border-bottom: none;
+    margin-top: 3%;
+    padding-bottom: 6%;
+    overflow: hidden;
+  }
+  .productText p {
+    width: 100%;
+    line-height: 1.8rem;
+    font-size: 0.8em;
+  }
+  .productText {
+    width: 66.66666667%;
+  }
+  .productTxtEven {
+    padding-left: 0;
+    padding-right: 32px;
+
+  }
+  .productTxtOdd {
+    padding-right: 0;
+    padding-left: 32px;
+
+  }
+
+  .logoIm {
+    margin-top: 12px;
+    width: 100%;
+    justify-content: right;
+  }
+
+
+}
+@media screen and (min-width: 1200px) {
+  .productText p {
+    line-height: 2rem;
+    font-size: 0.9em;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .productText p {
+    font-size: .9em;
+    line-height: 2rem;
+  }
+}

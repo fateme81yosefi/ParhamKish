@@ -1,0 +1,86 @@
+ @font-face {
+    font-family: irSansWeb; 
+    src: url('./fonts/IRANSansWeb.ttf');  }
+    @font-face {
+        font-family: irSansWebBold;
+        src: url('./fonts/IRANSansWeb_Bold.ttf'); 
+       }
+       @font-face {
+        font-family: irSansWebBolder;
+        src: url('./fonts/IRANSansWeb_Bold.ttf'); 
+       } 
+  
+       @font-face {
+        font-family: 'irSansWebFA';
+        font-style: oblique;
+        src: local('irSans'), url('./fonts/IRANSans\(FaNum\).ttf') format('truetype')
+    }
+   /*  
+    @font-face {
+        font-family: 'irSansBlack';
+        src: local('irSans'), url('./fonts/IRANSansWeb_Black.ttf') format('truetype')
+    }
+    
+    @font-face {
+        font-family: 'irSansWebBold';
+        src: local('irSans'), url('./fonts/IRANSansWeb_Bold.ttf') format('truetype')
+    }
+    
+    @font-face {
+        font-family: 'irSansLight';
+        src: local('irSans'), url('./fonts/IRANSansWeb_Light.ttf') format('truetype')
+    }
+    
+    @font-face {
+        font-family: 'irSansMedium';
+        src: local('irSans'), url('./fonts/IRANSansWeb_Medium.ttf') format('truetype')
+    }
+    */ 
+    @font-face {
+        font-family: 'irSansUltraLight';
+        src: local('irSans'), url('./fonts/IRANSansWeb_UltraLight.ttf') format('truetype')
+    } 
+  
+/* :root {
+  --customvar: 12%;
+}
+
+.test {
+  width: var(--customvar);
+} */
+
+       *{
+    font-family: irSansWeb;
+    user-select: none;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background:  #383838; 
+    
+  }
+  a{
+    text-decoration:none;
+  }
+   .goTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    fill: #383838;
+    background-color: rgb(208, 173, 103);
+    padding: 9px;
+    border-radius: 50%;
+    z-index: 112;
+   }
+  ::-webkit-scrollbar-thumb {
+    background: #2e2e2e; 
+    border-radius: 13px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5e5e5e; 
+
+  }

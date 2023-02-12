@@ -1,0 +1,154 @@
+.containProjects {
+  background-color: #2e2e2e;
+  font-size: 2rem;
+  text-align: center !important;
+  font-weight: 900;
+  color: white;
+}
+.containProjects span {
+  font-size: 2rem;
+  text-align: center !important;
+  font-weight: 900;
+}
+.singIm {
+  width: 100%;
+  height: 100%;
+}
+.singleProjImg {
+  max-height: 900px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.modifImg {
+  z-index: 34;
+}
+.containTitle {
+  margin-bottom: 3%;
+}
+
+.logoProject {
+  position: absolute;
+  top: 85%;
+  left: 11%;
+}
+.logoProject p {
+  font-size: small;
+  color: black;
+}
+.logoProject img {
+  height: 41px;
+}
+.item1 {
+  grid-area: i1;
+}
+.item2 {
+  grid-area: i2;
+}
+.item3 {
+  grid-area: i3;
+}
+.item4 {
+  grid-area: i4;
+}
+.dirctiProj {
+  direction: rtl;
+  display: grid;
+  grid-template-areas:
+    "i1 i1 i1 i2 i2 i2"
+    "i3 i3 i3 i4 i4 i4";
+}
+.singIm {
+  transition: filter 1s;
+  /* filter: brightness(40%); badan oncomment she*/
+}
+.singIm:hover {
+  filter: brightness(100%);
+}
+.modifImg {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10%;
+  background-color: #d0ad6773;
+  filter: brightness(100%) !important;
+  border-radius: 50%;
+}
+.headlitt{
+  font-family: 'irSansWebBolder';
+ font-size: 1.5rem !important;
+}
+.headlitt span{
+  font-family: 'irSansWebBolder';
+ font-size: 1.5rem !important;
+}
+@media screen and (min-width: 440px) {
+  .logoProject {
+    top: 86%;
+    left: 5%;
+
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .logoProject {
+    top: 82%;
+    left: 11%;
+  }
+  .logoProject img {
+    height: 70px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .logoProject img {
+    height: 85px;
+  }
+  .logoProject{
+    top:84%;
+    left:5%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+   .logoProject {
+    top: 87%;
+    left: 5%;
+}
+}
+
+@media screen and (min-width: 992px) {
+  .row1 {
+    flex-direction: row;
+  }
+ 
+}
+@media screen and (min-width: 992px) {
+  .logoProject img {
+    height: 52px;
+  }
+  .dirctiProj {
+    direction: rtl;
+    display: grid;
+    grid-template-areas: "i1 i2 i3 i4";
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logoProject img {
+    height: 52px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .logoProject img {
+    height: 65px;
+    margin-bottom: 17px;
+  }
+  .logoProject p {
+    font-size: medium;
+}
+.logoProject{
+  top:89%;
+}
+}

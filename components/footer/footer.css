@@ -1,0 +1,30 @@
+.containFooter {
+  background-color: #272727;
+  padding: 1%;
+  z-index: 111;
+  position: relative;
+}
+.containFooter .container {
+  display: flex;
+  /* flex-direction: umn; */
+  flex-direction: row-reverse;
+  text-align: center;
+
+}
+.containFooter .container img {
+  width: 130px;
+}
+.footerTxt {
+  width: 100%;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  color: #6e6e6e;
+  font-size: 0.75rem;
+
+}
+@media screen and (min-width: 774px) {
+  .containFooter .container {
+    text-align: left;
+  }
+}

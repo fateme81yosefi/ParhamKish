@@ -1,0 +1,123 @@
+.maskEcom {
+  -webkit-mask-image: url(https://s6.uupload.ir/files/top-icon_mv5a.png);
+  mask-image: url(https://s6.uupload.ir/files/top-icon_mv5a.png);
+  -webkit-mask-size: 270px;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform: translateY(-35px);
+  margin-top: 40px;
+}
+
+.maskEcom img {
+  width: 270px;
+}
+
+.containEcom {
+  background-color: #2e2e2e;
+}
+
+.ecomDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  flex-direction: column;
+}
+.titleEcNum {
+  font-size: 4rem;
+  color: #d0ad67;
+  font-weight: 900;
+  direction: ltr !important;
+  font-family: fantasy;
+}
+.titleEcdesc {
+  color: white;
+  margin-bottom: 10%;
+  padding: 0px 30px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  /* .titleEcNumen{
+  margin-left: 46px;
+} */
+  .titleEcNumen {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .containTitlebigEcomown h1 {
+    margin-top: 2rem;
+  }
+  .ecomDisplayRight {
+    align-items: flex-end;
+  }
+
+  .ecomDisplay {
+    padding: 0 10px;
+  }
+  .ecomDisplayLeft {
+    align-items: flex-start;
+    padding-right: 150px;
+    text-align: right;
+  }
+  .maskEcom {
+    margin-right: 10px;
+  }
+  .titleEcNum {
+    /* margin-left: 23px; */
+    margin-top: 20%;
+    font-size: 5rem;
+    width: 100%;
+  }
+  .titleEcdesc {
+    padding: 0;
+    text-align: end;
+    z-index: 0;
+    position: relative;
+    word-spacing: 3px;
+    font-size: 1.1rem;
+    width: 100%;
+  }
+  .titleEcNumen {
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 4rem;
+  }
+  .titleEcNumen b {
+    font-family: irSansWebBolder;
+  }
+  .titleEcNum b {
+    font-family: irSansWebBolder;
+  }
+  .gcvgffh {
+    align-items: center;
+  }
+  .fdgfdg {
+    padding-left: 100px !important;
+    align-items: center !important;
+  }
+  .ecomDisplayLeftEn {
+    padding-right: 0;
+    align-items: center;
+  }
+  .cvdv {
+    width: 100%;
+    word-spacing: 0;
+    font-size: .98rem;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .maskEcom {
+    -webkit-mask-size: 400px;
+  }
+
+  .maskEcom img {
+    width: 400px;
+  }
+  .titleEcNumen {
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 5rem;
+  }
+}
