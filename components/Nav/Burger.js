@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import styled from "styled-components";
 import { LangContext } from "../../shared/LanguageContext";
 import RightNav from "./RightNav";
@@ -10,7 +10,6 @@ const StyledBurger = styled.div`
   top: 0px;
   left: 0px;
   z-index: 23;
-
 
   display: none;
   @media (max-width: 1200px) {
@@ -47,6 +46,8 @@ const Burger = () => {
   const [open, setOpen] = useState(false);
   const [LangId, setLangId] = useContext(LangContext);
 
+ 
+
   return (
     <>
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
@@ -54,7 +55,7 @@ const Burger = () => {
         <div />
         <div />
       </StyledBurger>
-      {LangId === "fa" ? <LeftNav open={open} /> : <RightNav open={open} />}
+      {LangId === "fa" ? <LeftNav open={open} setOpen={setOpen}/> : <RightNav open={open} setOpen={setOpen} />}
     </>
   );
 };

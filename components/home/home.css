@@ -45,7 +45,7 @@
   margin-bottom: 4vh;
 }
 .whitelineen {
-  margin-top: 28vh;
+  margin-top: 35vh;
 }
 .containerInCount {
   display: flex;
@@ -124,13 +124,11 @@
 
 .responsiveblackFa {
   right: 13vw;
-
 }
-.headerInLargeren{
+.headerInLargeren {
   flex-direction: row;
-
 }
-.ulcollectionEn{
+.ulcollectionEn {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -181,7 +179,6 @@
   .black p {
     margin-bottom: 7rem !important;
   }
- 
 }
 @media screen and (min-width: 1200px) {
   .textContainer1 {
@@ -205,10 +202,9 @@
   .containBlackImageEn {
     left: 212px;
   }
-  .headerLogo{
+  .headerLogo {
     display: flex !important;
   }
-
 }
 @media screen and (min-width: 1250px) {
   .responsiveblackFa {
@@ -217,10 +213,22 @@
   .containBlackImageEn {
     left: 16vw;
   }
-
+  .blackeng {
+    margin-top: 22rem !important;
+  }
+  .blackeng {
+    margin-top: 22rem !important;
+  }
+  .whitelineen {
+    margin-top: 19vh !important;
+    margin-bottom: 4.5vh;
+  }
+  .black p{
+    font-size: 0.9rem;
+  }
 }
 @media screen and (min-width: 1328px) {
-  .textContainer1{
+  .textContainer1 {
     width: 70%;
     left: 37%;
   }
@@ -230,11 +238,11 @@
   .textContainer1 h1 {
     line-height: 10rem;
   }
-  .textContainer1 h1 b{
+  .textContainer1 h1 b {
     font-size: 7.4rem;
     line-height: 3rem;
   }
-  .headerInLargeren{
+  .headerInLargeren {
     left: -190px;
   }
 }
@@ -248,7 +256,7 @@
     right: 210px;
     width: 261px;
   }
- 
+
   .blackbigax {
     width: 222px;
   }
@@ -265,26 +273,26 @@
   .containBlackImageEn {
     left: 212px;
   }
-  .headerInLargeren{
+  .headerInLargeren {
     left: -120px;
   }
-  .ulcollectionEn{
+  .ulcollectionEn {
     display: flex;
     flex-direction: row-reverse;
     margin-right: 13% !important;
   }
 }
 @media screen and (min-width: 1500px) {
-.textContainer1{
-  left: 30%;
-}
-.textContainer1 h1 b{
-  font-size: 9rem;
-  line-height: 3rem;
-}
-.textContainer1 p b{
-  font-size: 2.7rem;
-}
+  .textContainer1 {
+    left: 30%;
+  }
+  .textContainer1 h1 b {
+    font-size: 9rem;
+    line-height: 3rem;
+  }
+  .textContainer1 p b {
+    font-size: 2.7rem;
+  }
 }
 @media screen and (min-width: 1600px) {
   .headerInLargeren {
@@ -293,15 +301,14 @@
   .headerLogo {
     margin-right: 67px;
   }
-  .textContainer1 h1 b{
+  .textContainer1 h1 b {
     font-size: 10rem;
     line-height: 3rem;
   }
-  .textContainer1 h2 b{
+  .textContainer1 h2 b {
     font-size: 10rem;
     line-height: 3rem;
   }
-
 }
 @media screen and (min-width: 1700px) {
   .headerLogo {

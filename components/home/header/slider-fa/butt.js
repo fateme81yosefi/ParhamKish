@@ -37,7 +37,7 @@ export default function Butt(props) {
           prevPage();
           props.previous();
         }}
-        style={{ marginLeft: "40px" }}
+        style={{ marginLeft: "30px" }}
       >
         <span className="prev-fa">&#8594;</span>قبلی
       </button>

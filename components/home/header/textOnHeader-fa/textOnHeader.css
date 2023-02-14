@@ -8,7 +8,7 @@
   text-align: right;
 }
 .textContainer {
-  top: 6%;
+  top: 17%;
   width: 73%;
   left: 8%;
 }
@@ -71,6 +71,10 @@
   margin-bottom: -58px;
   margin-top: 55px;
   opacity: 0.6;
+}
+.spec1 {
+  font-size: 0.8rem;
+
 }
 .headerInLarger{
   display: none;
@@ -253,8 +257,11 @@
   .absoluting{
     position: absolute;
   }
-  .ulcollection li{
-    margin-left: 20px;
+  .ulcollectionEn li{
+    margin-left: 54px;
+  }
+  .ulcollectionfa li{
+    margin-left: 43px;
   }
   .headerInLarger{
    display: flex;

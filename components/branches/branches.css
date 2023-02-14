@@ -66,6 +66,7 @@
   justify-content: center;
   text-align: center;
   margin-bottom: 10px;
+  font-size: 11px;
 }
 .rowArtificial .col-4 {
   text-align: start;
@@ -77,6 +78,10 @@
 .linespe {
   height: 122vh;
   margin-bottom: -122vh;
+}
+
+.rowArtificLast {
+  margin-bottom: 0 !important;
 }
 @media screen and (min-width: 368px) {
   .city3 {
@@ -107,7 +112,7 @@
     top: 9px;
     right: 25px;
   }
-  .infoAddress{
+  .infoAddress {
     font-size: 15px;
   }
 }
@@ -135,16 +140,14 @@
   .city4 {
     top: 38px;
     right: 3px;
+  }
 }
-}
-
 
 @media screen and (min-width: 550px) {
   .city4 {
     top: 42px;
     right: 6px;
-}
-
+  }
 }
 @media screen and (min-width: 768px) {
   .city2 {
@@ -162,7 +165,7 @@
   .city4 {
     top: 56px;
     right: 11px;
-}
+  }
 }
 @media screen and (min-width: 776px) {
   .cityy {
@@ -182,7 +185,6 @@
   }
 }
 @media screen and (min-width: 992px) {
-  
   .infoAddress {
     width: 53%;
     margin-right: 42%;
@@ -214,16 +216,15 @@
   .city4 {
     top: 77px;
     right: 11px;
-}
+  }
   .rowArtificial {
     font-size: 100%;
 
     /* flex-direction: column-reverse; */
     /* text-align: center !important; */
   }
-  .contant{
+  .contant {
     text-align: justify;
-
   }
 }
 @media screen and (min-width: 1200px) {
@@ -245,7 +246,7 @@
   .city4 {
     top: 89px;
     right: 11px;
-}
+  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -272,6 +273,5 @@
     top: 106px;
     right: 23px;
     top: 89px;
-
-}
+  }
 }

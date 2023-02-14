@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 export const LangContext = createContext();
 
 export const LangProvider = (props) => {
-  const [LangId, setLangId] = useState("fa");
+  const [LangId, setLangId] = useState("en");
 
   return (
     <LangContext.Provider value={[LangId, setLangId]}>
@@ -10,6 +10,8 @@ export const LangProvider = (props) => {
     </LangContext.Provider>
   );
 };
+
+
 export const CountContext = createContext();
 
 export const CountProvider = (props) => {
@@ -21,3 +23,4 @@ export const CountProvider = (props) => {
     </CountContext.Provider>
   );
 };
+

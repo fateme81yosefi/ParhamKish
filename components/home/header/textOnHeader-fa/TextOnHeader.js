@@ -60,7 +60,7 @@ export default function TextOnHeader(props) {
         <motion.div className="textContainer">
           {/* {LangId === "fa" ? ( */}
           <div className="headerInLarger">
-            <ul className="ulcollection">
+            <ul className="ulcollection ulcollectionfa">
               <li className="fa-drop-first">
                 {" "}
                 {LangId === "fa" ? (

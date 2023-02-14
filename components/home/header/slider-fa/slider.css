@@ -11,10 +11,13 @@
   color: white;
   font-weight: 200;
 }
+.imgInSliderHead {
+  object-fit: cover;
+}
 .contButtonSlider {
   position: absolute;
   right: 50%;
-  top: 80%;
+  top: 75%;
   transform: translate(50%, -80%);
   z-index: 12;
   direction: rtl;
@@ -28,10 +31,9 @@
 .next-en {
   transition: 1s margin-right;
   margin-right: 10px;
-
 }
-.btnSlider  {
-  font-weight:100 !important;
+.btnSlider {
+  font-weight: 100 !important;
 }
 @keyframes slidebg {
   to {

@@ -48,6 +48,7 @@ export default class SliderHeader2 extends Component {
           <div style={{ width: "100%" }}>
             <img
               alt="sliderImage1"
+              className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
               style={{ height: "90vh", width: "100%" }}
             />
@@ -62,12 +63,13 @@ export default class SliderHeader2 extends Component {
            <div>
             <img
               alt="sliderImage2"
+              className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
               style={{ height: "90vh", width: "100%" }}
             />
               <TextOnHeader1
                 title={
-                  "Membership in the National Elite Foundation of the country"
+                  "Obtaining a knowledge-based certificate from the Scientific Vice President"
                 }
                 description={""}
                 slideID={1}
@@ -77,6 +79,7 @@ export default class SliderHeader2 extends Component {
           <div>
             <img
               alt="sliderImage3"
+              className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
               style={{ height: "90vh", width: "100%" }}
             />
@@ -93,6 +96,7 @@ export default class SliderHeader2 extends Component {
           <div>
             <img
               alt="sliderImage3"
+              className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
               style={{ height: "90vh", width: "100%" }}
             />
@@ -107,6 +111,7 @@ export default class SliderHeader2 extends Component {
           <div>
             <img
               alt="sliderImage3"
+              className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
               style={{ height: "90vh", width: "100%" }}
             />

@@ -19,7 +19,7 @@
   position: absolute;
   margin-right: 50%;
   transform: translate(50%, 28vh);
-  margin-top: -40vh;
+  margin-top: -45vh;
   white-space: nowrap;
   z-index: 12;
   direction: ltr;
@@ -37,20 +37,10 @@
     background-position: 20vw;
   }
 }
-@media screen and (min-width: 1024px) {
-  /* .contButtonSlideren {
-    position: absolute;
-    transform: translate(0%, 28vh);
-    left: 160px;
-    margin-top: -61vh;
-    white-space: nowrap;
-    z-index: 23;
-  } */
-}
+
 @media screen and (min-width: 1200px) {
   .contButtonSlideren {
     left: 120px;
     margin-top: -70vh;
-
   }
 }

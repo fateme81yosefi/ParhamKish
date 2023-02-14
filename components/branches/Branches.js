@@ -206,7 +206,7 @@ export default function Branches() {
             </div>
           </div>
 
-          <div className="rowArtificial" id="qeshcont" style={styleeff}>
+          <div className="rowArtificial rowArtificLast" id="qeshcont" style={styleeff}>
             <div className="col-xs-12 col-lg-4" style={{ display: "flex" }}>
               {LangId === "fa" ? (
                 <span className="contant"> + ۹۸۷۶۳۵۲۱۸۰۸۴  </span>

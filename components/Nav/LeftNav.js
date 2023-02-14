@@ -10,8 +10,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
-  text-align:right;
-
+  text-align: right;
 
   li {
     padding: 18px 10px;
@@ -19,14 +18,13 @@ const Ul = styled.ul`
     }
   }
   .rs-dropdown-toggle {
-  flex-direction:"reverse-row";
+    flex-direction: "reverse-row";
   }
-  
+
   .rs-icon {
   }
 
   @media (max-width: 1200px) {
-  
     flex-flow: column nowrap;
     background-color: #383838;
     position: fixed;
@@ -40,25 +38,24 @@ const Ul = styled.ul`
     z-index: 20;
     li {
       color: #fff;
-      text-align:right;
-    }  
+      text-align: right;
+    }
   }
 `;
 
-const RightNav = ({ open }) => {
+const RightNav = ({ open, setOpen }) => {
   const [LangId, setLangId] = useContext(LangContext);
 
   const RightSty = {
     left: LangId === "en" ? "0" : "",
   };
 
-
   return (
-    <Ul open={open} style={RightSty}>
+    <Ul open={open} style={RightSty} id="blackNav2">
       <li>
         {" "}
         {LangId === "fa" ? (
-            <Dropdown title="فارسی" >
+          <Dropdown title="فارسی">
             <Dropdown.Item>فارسی</Dropdown.Item>
             <Dropdown.Item
               onClick={() => {
@@ -69,7 +66,7 @@ const RightNav = ({ open }) => {
             </Dropdown.Item>
           </Dropdown>
         ) : (
-          <Dropdown title="English" >
+          <Dropdown title="English">
             <Dropdown.Item
               onClick={() => {
                 setLangId("fa");
@@ -85,49 +82,122 @@ const RightNav = ({ open }) => {
       <li>
         {" "}
         {LangId === "fa" ? (
-          <a href="#contact" className="header-button">تماس با ما</a>
+          <a
+            href="#contact"
+            className="header-button"
+            onClick={() => {
+              document.getElementById("blackNav2").style.display = "none";
+            }}
+          >
+            تماس با ما
+          </a>
         ) : (
-          <a href="#contact" className="header-button">contact us</a>
+          <a
+            href="#contact"
+            className="header-button"
+            onClick={() => {
+              document.getElementById("blackNav2").style.display = "none";
+            }}
+          >
+            contact us
+          </a>
         )}
       </li>
       <li>
         {" "}
         {LangId === "fa" ? (
-          <a href="https://blog.parhamkish.com/" className="header-button">بلاگ پرهام</a>
+          <a href="https://blog.parhamkish.com/" className="header-button">
+            بلاگ پرهام
+          </a>
         ) : (
-          <a href="https://blog.parhamkish.com/" className="header-button">Parham's blog</a>
+          <a href="https://blog.parhamkish.com/" className="header-button">
+            Parham's blog
+          </a>
         )}
       </li>
       <li>
         {" "}
         {LangId === "fa" ? (
-          <a href="https://eclubgroup.ir/" className="header-button"> ایکلاب</a>
+          <a href="https://eclubgroup.ir/" className="header-button">
+            {" "}
+            ایکلاب
+          </a>
         ) : (
-          <a href="https://eclubgroup.ir/" className="header-button"> Eclub </a>
+          <a href="https://eclubgroup.ir/" className="header-button">
+            {" "}
+            Eclub{" "}
+          </a>
         )}
       </li>
       <li>
         {" "}
         {LangId === "fa" ? (
-          <a href="#products" className="header-button">محصولات </a>
+          <a
+            href="#products"
+            className="header-button"
+            onClick={() => {
+              setOpen(false);
+            }}
+          >
+            محصولات{" "}
+          </a>
         ) : (
-          <a href="#products" className="header-button"> products </a>
+          <a
+            href="#products"
+            className="header-button"
+            onClick={() => {
+              setOpen(false);
+            }}
+          >
+            {" "}
+            products{" "}
+          </a>
         )}
       </li>
       <li>
         {LangId === "fa" ? (
-          <a href="#projects" className="header-button">پروژه ها</a>
+          <a
+            href="#projects"
+            className="header-button"
+            onClick={() => {
+              setOpen(false);
+            }}
+          >
+            پروژه ها
+          </a>
         ) : (
-          <a href="#projects" className="header-button">projects </a>
+          <a
+            href="#projects"
+            className="header-button"
+            onClick={() => {
+              setOpen(false);
+            }}
+          >
+            projects{" "}
+          </a>
         )}
       </li>
       <li>
         {LangId === "fa" ? (
-          <a href="#about" className="header-button" style={{ color: "#d0ad67" }}>
+          <a
+            href="#about"
+            className="header-button"
+            style={{ color: "#d0ad67" }}
+            onClick={() => {
+              setOpen(false);
+            }}
+          >
             درباره ما
           </a>
         ) : (
-          <a href="#about" className="header-button" style={{ color: "#d0ad67" }}>
+          <a
+            href="#about"
+            className="header-button"
+            style={{ color: "#d0ad67" }}
+            onClick={() => {
+              setOpen(false);
+            }}
+          >
             about us{" "}
           </a>
         )}

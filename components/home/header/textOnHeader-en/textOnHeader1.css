@@ -8,7 +8,7 @@
   text-align: right;
 }
 .textContainer1 {
-  top: 6%;
+  top: 14%;
   width: 73%;
   left: 23%;
 }
@@ -19,7 +19,7 @@
   font-size: 1rem !important;
 }
 .textContainer1 h1 {
-  font-size: 3.5rem;
+  font-size: 2.6rem;
   margin-top: 50px;
   font-weight: 900;
   font-family: irSansWebBold;
@@ -32,7 +32,7 @@
 .textContainer1 h2 {
   margin-bottom: 1rem;
   margin-top: 1rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 800;
   line-height: 3rem;
   font-family: irSansWebBold;
@@ -86,6 +86,12 @@
   }
   .spec1{
     font-size: 1rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .textContainer1 h1 b{
+    font-size:3.6rem;
+
   }
 }
 @media screen and (min-width: 600px) {
@@ -160,6 +166,7 @@
   .textContainer h2 {
     padding: 0 0 25px 0;
   }
+
   .textContainer1 {
     top: 26vh;
     width: 70%;
@@ -184,6 +191,7 @@
     width: 63%;
     left: 33%;
   }
+
 }
 @media screen and (min-width: 1200px) {
   .textContainer1{
@@ -219,11 +227,15 @@
 @media screen and (min-width: 1300px) {
   .textContainer1 {
     /* top: 22vh; */
-    width: 51%;
+    width: 21%;
     left: 30%;
   }
 }
 @media screen and (min-width: 1400px) {
+  .textContainer1 b h2{
+    font-size: 2rem;
+    line-height: 4rem;
+  }
   .textContainer1 h1 {
     font-size: 9.85rem !important;
     /* height: 133px; */

@@ -2,9 +2,10 @@ import React, { Component, Fragment } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./slider.css";
 import Butt from "./butt";
 import TextOnHeader from "../textOnHeader-fa/TextOnHeader";
+import "./slider.css";
+
 export default class SliderHeader1 extends Component {
   constructor(props) {
     super(props);
@@ -41,6 +42,7 @@ export default class SliderHeader1 extends Component {
           <div style={{ width: "100%" }}>
             <img
               alt="sliderImage1"
+              className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
               style={{ height: "90vh", width: "100%" }}
             ></img>
@@ -54,6 +56,7 @@ export default class SliderHeader1 extends Component {
           <div>
             <img
               alt="sliderImage2"
+              className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
               style={{ height: "90vh", width: "100%" }}
             ></img>
@@ -67,6 +70,7 @@ export default class SliderHeader1 extends Component {
          <div>
             <img
               alt="sliderImage3"
+              className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
               style={{ height: "90vh", width: "100%" }}
             ></img>
@@ -80,6 +84,7 @@ export default class SliderHeader1 extends Component {
           <div>
             <img
               alt="sliderImage3"
+              className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
               style={{ height: "90vh", width: "100%" }}
             ></img>
@@ -93,6 +98,7 @@ export default class SliderHeader1 extends Component {
           <div>
             <img
               alt="sliderImage3"
+              className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
               style={{ height: "90vh", width: "100%" }}
             ></img>

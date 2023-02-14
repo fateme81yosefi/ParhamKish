@@ -52,7 +52,7 @@ export default function Butt2(props) {
 
           props.next();
         }}
-        style={{ marginLeft: "40px" }}
+        style={{ marginLeft: "30px" }}
 
       >
        Next <span className="next-en1"> &#8594;</span>

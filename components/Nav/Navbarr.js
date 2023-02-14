@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import styled from "styled-components";
-import { LangContext } from "../../shared/LanguageContext";
+import { LangContext, ShowBurgerContext } from "../../shared/LanguageContext";
 import Burger from "./Burger";
 
 const Navbarr = () => {
@@ -17,8 +17,10 @@ const Navbarr = () => {
   const imgLogoEn = {
     marginLeft: LangId === "en" ? "15%" : "",
   };
+
+
   return (
-<div className="cont-Nav" style={contNav}>
+    <div className="cont-Nav" style={contNav}>
       {LangId === "fa" ? (
         <img
           className="headerLogo"

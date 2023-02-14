@@ -6,10 +6,11 @@
 }
 .containFooter .container {
   display: flex;
-  /* flex-direction: umn; */
   flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
-
+  padding: 1rem 1rem;
 }
 .containFooter .container img {
   width: 130px;
@@ -21,10 +22,19 @@
   align-items: center;
   color: #6e6e6e;
   font-size: 0.75rem;
-
+  padding: 10px;
 }
 @media screen and (min-width: 774px) {
   .containFooter .container {
     text-align: left;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .containFooter .container {
+    padding: 0;
+  }
+  .footerTxt{
+    padding: 0px;
+
   }
 }

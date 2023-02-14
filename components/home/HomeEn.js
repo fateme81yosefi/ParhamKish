@@ -28,14 +28,7 @@ import EcomEn from "../ecom/EcomEn";
     const [Count, setCount] = useContext(CountContext);
     const [leftmarginer, setleftmarginer] = useState("");
     const [rightmarginer, setrightmarginer] = useState("");
-  
-    // useEffect(() => {
-    //   window.addEventListener("resize", show);
-    //   return () => {
-    //     window.removeEventListener("resize", show);
-    //   };
-    // }, []);
-  
+
     const interval = useRef();
   
   
@@ -74,7 +67,7 @@ import EcomEn from "../ecom/EcomEn";
       transform: LangId === "en" ? "" : "",
     };
     const blackpSty = {
-      marginTop: LangId === "en" ? "14rem" : {},
+      marginTop: LangId === "en" ? "7rem" : {},
     };
     const containCountSty = {
       transform: LangId === "en" ? "rotate(-181deg)" : "",

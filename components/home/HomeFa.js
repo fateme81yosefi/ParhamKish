@@ -111,27 +111,13 @@ export default function HomeFa() {
     left: LangId === "fa" ? "" : "0",
   };
 
-  // const whitelineenSty = {
-  //   marginTop: LangId === "en" ? "20vh" : "0",
-  // };
-
-  // const containBlackImageSty = {
-    
-  //   left: LangId === "en" ? leftmarginer : {},
-
-  //   right: LangId === "fa" ? rightmarginer : {},
-
-  //   // left: LangId === "en" && window.innerWidth>1200 && window.innerWidth<1600 ? "11vw" : {},
-
-  //   transform: LangId === "en" ? "" : "",
-  // };
 
   const blackpSty = {
     marginTop: LangId === "en" ? "14rem" : {},
   };
+  
   const containCountSty = {
     transform: LangId === "en" ? "rotate(-181deg)" : "",
-    // fontFamily: "",
   };
 
   const containCounthSty = {

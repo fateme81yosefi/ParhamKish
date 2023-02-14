@@ -80,13 +80,15 @@
     padding-left: 32px !important;
   }
   .en-about {
-    padding-right: 32px !important;
+    padding-right: 24px !important;
   }
   .lineall {
     display: block;
   }
   .imgAbout img {
     width: 100% !important;
+    object-fit: contain;
+
   }
   .aboutTxt {
     align-items: initial;
@@ -107,6 +109,11 @@
   .contain2colAbout{
     display: flex;
     flex-direction: row;
+    word-spacing: -2px;
+
+  }
+  .imgAbout{
+    align-items: flex-start;
   }
 }
 @media screen and (min-width: 1000px) {
