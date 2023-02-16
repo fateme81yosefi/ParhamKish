@@ -66,7 +66,7 @@ export default function TextOnHeader1(props) {
             ></img>
           )}
           <ul className="ulcollection ulcollectionEn">
-            <li className="en-drop-first">
+            <li className="en-drop-first" style={{    marginLeft: "-17px !important"}}>
               {" "}
               {LangId === "fa" ? (
                 <Dropdown title="فارسی" placement="bottomEnd">
@@ -101,7 +101,7 @@ export default function TextOnHeader1(props) {
                 </a>
               ) : (
                 <a href="#contact" className="header-button">
-                  contact us
+                  Contact Us
                 </a>
               )}
             </li>
@@ -119,7 +119,7 @@ export default function TextOnHeader1(props) {
                   href="https://blog.parhamkish.com/"
                   className="header-button"
                 >
-                  Parham's blog
+                  Parham's Blog
                 </a>
               )}
             </li>
@@ -145,7 +145,7 @@ export default function TextOnHeader1(props) {
               ) : (
                 <a href="#products" className="header-button">
                   {" "}
-                  products{" "}
+                  Products{" "}
                 </a>
               )}
             </li>
@@ -156,7 +156,7 @@ export default function TextOnHeader1(props) {
                 </a>
               ) : (
                 <a href="#projects" className="header-button">
-                  projects{" "}
+                  Projects{" "}
                 </a>
               )}
             </li>
@@ -175,7 +175,7 @@ export default function TextOnHeader1(props) {
                   className="header-button"
                   style={{ color: "#d0ad67" }}
                 >
-                  about us{" "}
+                  About Us{" "}
                 </a>
               )}
             </li>

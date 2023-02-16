@@ -36,7 +36,7 @@ export default function Projects() {
                 پروژه های <span className="parhamColor">پرهام کیش</span>
               </p>
             ) : (
-              <p className="headlitt">
+              <p className="headlitt projlitttiltle">
                  <span className="parhamColor">Parham Kish</span> projects
               </p>
             )}

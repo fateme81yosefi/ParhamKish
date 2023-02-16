@@ -3,13 +3,15 @@
 }
 
 .slick-slide {
-  background-color: #2e2e2e;
+  background-color: #272727;
 }
 .btnSlider {
   background-color: transparent;
   border: none;
   color: white;
-  font-weight: 200;
+  font-weight: 100 !important;
+  font-family: 'irSansUltraLight';
+
 }
 .imgInSliderHead {
   object-fit: cover;
@@ -21,16 +23,22 @@
   transform: translate(50%, -80%);
   z-index: 12;
   direction: rtl;
-  font-family: irSansUltraLight;
+  font-family: 'irSansUltraLight';
 }
 .prev-fa {
   transition: 1s margin-left;
   margin-left: 10px;
+  font-weight: 100 !important;
+  font-family: 'irSansUltraLight' ;
+
 }
 
 .next-en {
   transition: 1s margin-right;
   margin-right: 10px;
+  font-weight: 100 !important;
+  font-family: 'irSansUltraLight';
+
 }
 .btnSlider {
   font-weight: 100 !important;

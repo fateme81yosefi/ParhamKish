@@ -50,7 +50,7 @@ export default class SliderHeader2 extends Component {
               alt="sliderImage1"
               className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
-              style={{ height: "90vh", width: "100%" }}
+              style={{ height: "95vh", width: "100%" }}
             />
             
               <TextOnHeader1
@@ -65,7 +65,7 @@ export default class SliderHeader2 extends Component {
               alt="sliderImage2"
               className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
-              style={{ height: "90vh", width: "100%" }}
+              style={{ height: "95vh", width: "100%" }}
             />
               <TextOnHeader1
                 title={
@@ -81,7 +81,7 @@ export default class SliderHeader2 extends Component {
               alt="sliderImage3"
               className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
-              style={{ height: "90vh", width: "100%" }}
+              style={{ height: "95vh", width: "100%" }}
             />
             
               <TextOnHeader1
@@ -98,7 +98,7 @@ export default class SliderHeader2 extends Component {
               alt="sliderImage3"
               className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
-              style={{ height: "90vh", width: "100%" }}
+              style={{ height: "95vh", width: "100%" }}
             />
             
               <TextOnHeader1
@@ -113,7 +113,7 @@ export default class SliderHeader2 extends Component {
               alt="sliderImage3"
               className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
-              style={{ height: "90vh", width: "100%" }}
+              style={{ height: "95vh", width: "100%" }}
             />
             
               <TextOnHeader1

@@ -51,7 +51,7 @@
 
        *{
     font-family: irSansWeb;
-    user-select: none;
+    /* user-select: none; */
   }
   ::-webkit-scrollbar {
     width: 10px;

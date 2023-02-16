@@ -63,7 +63,7 @@ export default function Products() {
             variants={boxVariant}
             initial="hidden"
             animate={control}
-            className="containTitlebigEcom containTitlebigEcombetween"
+            className="containTitlebigEcom containTitlebigEcombetween prodBig"
             style={styleBoldText}
           >
             {LangId === "fa" ? (

@@ -118,7 +118,7 @@ import EcomEn from "../ecom/EcomEn";
                   className="whiteline whitelineen"
                   style={{ marginRight: "50%" }}
                 ></div>
-              <div className="containImag">
+              <div className="containImag ENcontainImage">
                 <a href="">
                   <svg
                     href="https://www.instagram.com/parhamkish.ir/"

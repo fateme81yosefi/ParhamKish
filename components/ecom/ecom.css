@@ -13,7 +13,7 @@
 }
 
 .containEcom {
-  background-color: #2e2e2e;
+  background-color: #272727;
 }
 
 .ecomDisplay {
@@ -119,5 +119,21 @@
     margin-right: 0px;
     margin-left: 0px;
     font-size: 5rem;
+  }
+  .titleEcdescFa{
+    margin-top: -40px;
+    margin-left: 34px;
+
+  }
+  .titleEcNum{
+    /* text-shadow: 7px 0px 0px #d0ad67; */
+  }
+  .titleEcNumen{
+    margin-top: 192px;
+
+  }
+  .titleEcNumFa{
+    margin-top: 12%;
+
   }
 }

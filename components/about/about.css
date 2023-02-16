@@ -1,5 +1,5 @@
 .containAbout {
-  background-color: #2e2e2e;
+  background-color: #272727;
 }
 .containAbout .col-sm-12 {
   color: white;
@@ -17,7 +17,7 @@
   display: none;
   margin-top: -8%;
 }
-.contain2colAbout{
+.contain2colAbout {
   display: flex;
   flex-direction: column-reverse;
 }
@@ -42,8 +42,8 @@
   width: 90%;
   height: 100%;
 }
-.headlitt{
-  font-family: 'irSansWebBolder';
+.headlitt {
+  font-family: "irSansWebBolder";
   font-size: 1.5rem;
 }
 .containTitlebigEcom {
@@ -51,16 +51,14 @@
   margin-bottom: -196px;
   display: none;
 }
-.containTitlebigEcom h1{
-  color: #4f4f4f;
+.containTitlebigEcom h1 {
+  color:#2e2e2e !important;
   font-size: 10rem;
-  opacity: 0.2;
   margin-bottom: 5rem;
   font-weight: bold;
   height: 200px;
   display: none;
   font-family: "irSansWebBolder";
-
 }
 
 .imgAbout {
@@ -77,7 +75,7 @@
 }
 @media screen and (min-width: 992px) {
   .fa-about {
-    padding-left: 32px !important;
+    padding-left: 31px !important;
   }
   .en-about {
     padding-right: 24px !important;
@@ -88,7 +86,6 @@
   .imgAbout img {
     width: 100% !important;
     object-fit: contain;
-
   }
   .aboutTxt {
     align-items: initial;
@@ -106,13 +103,13 @@
     font-size: 0.9em;
     line-height: 1.6rem;
   }
-  .contain2colAbout{
+  .contain2colAbout {
     display: flex;
     flex-direction: row;
     word-spacing: -2px;
-
+    padding: 0;
   }
-  .imgAbout{
+  .imgAbout {
     align-items: flex-start;
   }
 }
@@ -120,8 +117,6 @@
   .containAbout .col-sm-12 {
     padding-bottom: 1%;
   }
-
- 
 }
 
 @media screen and (min-width: 1200px) {
@@ -131,21 +126,18 @@
     display: block;
     letter-spacing: -5px !important;
     margin-top: 8rem;
-    font-family: 'irSansWebBolder';
-    font-size: 12rem ;
-
+    font-family: "irSansWebBolder";
+    font-size: 12rem;
   }
   .containTitlebigEcombetween h1 {
     margin-top: 8rem;
-    font-family: 'irSansWebBolder' !important;
-
+    font-family: "irSansWebBolder" !important;
   }
-  .en-big-title{
+  .en-big-title {
     font-size: 10rem !important;
     word-spacing: -10px !important;
     letter-spacing: -10px !important;
-    font-family: 'irSansWebBolder';
-
+    font-family: "irSansWebBolder";
   }
   .aboutTxt p {
     font-size: 1em;
@@ -160,7 +152,7 @@
 }
 @media screen and (min-width: 1400px) {
   .aboutTxt p {
-    font-size: 1em;
+    font-size: 0.999em;
     line-height: 2rem;
   }
 }
@@ -169,12 +161,11 @@
     font-size: 12rem;
     letter-spacing: -5px;
   }
-  .en-big-title{
-    font-size:10rem !important;
-    word-spacing: -10px !important;
+  .en-big-title {
+    font-size: 10rem !important;
+    word-spacing: 10px !important;
     letter-spacing: -10px !important;
-    font-family: 'irSansWebBolder';
-
+    font-family: "irSansWebBolder";
+    margin-top: 8.5rem !important;
   }
-
 }

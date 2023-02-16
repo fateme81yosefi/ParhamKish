@@ -62,19 +62,19 @@ export default function Branches() {
 
   return (
     <div className="containBranch">
-<div className="container indir containerEditMax">
+      <div className="container indir containerEditMax">
         <div className="row titleAbout">
           <div className="col-4 lineall linespe"></div>
           <div className="col-4 lineall linespe"></div>
           <div className="col-4 lineall linespe"></div>
           {LangId === "fa" ? (
-            <p className="headlitt" style={{marginBottom:"0"}}>
+            <p className="headlitt" style={{ marginBottom: "0" }}>
               دفاتر و شعب <span className="parhamColor">پرهام کیش</span>
             </p>
           ) : (
-            <p className="headlitt" style={{marginBottom:"0"}}>
-              
-              <span className="parhamColor">Parham Kish</span> offices and branches{" "}
+            <p className="headlitt" style={{ marginBottom: "0" }}>
+              <span className="parhamColor">Parham Kish</span> offices and
+              branches{" "}
             </p>
           )}
         </div>
@@ -139,19 +139,20 @@ export default function Branches() {
             </div>
             <div className="col-xs-12 col-lg-8">
               {LangId === "fa" ? (
-                <span className="city teh">تهران:</span>
+                <span className="city teh boldtxt">تهران:</span>
               ) : (
-                <span className="city teh">Tehran:</span>
+                <span className="city teh boldtxt">Tehran:</span>
               )}
 
               {LangId === "fa" ? (
                 <span className="address teh"> سعادت آباد، ساختمان اریکه ایرانیان</span>
               ) : (
-                <span className="address teh"> Saadat Abad, Erice Iranian Building{" "}</span>
+                <span className="address teh">  Arike Iranian bldg, Saadat Abad quarter , Tehran</span>
 
               )}
             </div>
           </div>
+
           <div className="rowArtificial" id="mashcont" style={styleeff}>
             <div className="col-xs-12 col-lg-4" style={{ display: "flex" }}>
               {LangId === "fa" ? (
@@ -164,11 +165,11 @@ export default function Branches() {
             </div>
             <div className="col-xs-12 col-lg-8">
               {LangId === "fa" ? (
-                <span className="city mash" id="mashhad">
+                <span className="city mash boldtxt" id="mashhad">
                   مشهد:
                 </span>
               ) : (
-                <span className="city mash" id="mashhadAddress">
+                <span className="city mash boldtxt" id="mashhadAddress">
                   Mashhad:
                 </span>
               )}
@@ -177,10 +178,11 @@ export default function Branches() {
                 <span className="address mash"> خیابان سناباد، بلوار مجد، مجد۱، پلاک ۸{" "} </span>
 
               ) : (
-                <span className="address mash"> Senabad St, Majd Blvd, Majd <span style={{ fontFamily: 'irSansWeb' }}>1</span>, No <span style={{ fontFamily: 'irSansWeb' }}>8 </span>{" "}</span>
+                <span className="address mash"> No. <span style={{ fontFamily: 'irSansWeb' }}>8 , 1</span> st Majd, Sanabad Ave. , Mashhad{" "}</span>
               )}
             </div>
           </div>
+          
           <div className="rowArtificial" id="kicont" style={styleeff}>
             <div className="col-xs-12 col-lg-4" style={{ display: "flex" }}>
               {LangId === "fa" ? (
@@ -193,15 +195,15 @@ export default function Branches() {
             </div>
             <div className="col-xs-12 col-lg-8">
               {LangId === "fa" ? (
-                <span className="city kish">کیش:</span>
+                <span className="city kish boldtxt">کیش:</span>
               ) : (
-                <span className="city kish">Kish:</span>
+                <span className="city kish boldtxt">Kish:</span>
               )}
 
               {LangId === "fa" ? (
                 <span className="address kish"> ساختمان مرکز نوآوری</span>
               ) : (
-                <span className="address kish"> Noavari Center Building </span>
+                <span className="address kish"> Noavari Complex , Kish </span>
               )}
             </div>
           </div>
@@ -218,11 +220,11 @@ export default function Branches() {
             </div>
             <div className="col-xs-12 col-lg-8">
               {LangId === "fa" ? (
-                <span className="city qesh" id="qeshm">
+                <span className="city qesh boldtxt" id="qeshm">
                   قشم:
                 </span>
               ) : (
-                <span className="city qesh" id="qeshmAddress">
+                <span className="city qesh boldtxt" id="qeshmAddress">
                   Qeshm:
                 </span>
               )}
@@ -230,13 +232,14 @@ export default function Branches() {
               {LangId === "fa" ? (
                 <span className="address kish"> مجتمع الماس ، واحد ۲۰۶</span>
               ) : (
-                ((<span className="address kish"> Almas complex, unit<span style={{ fontFamily: 'irSansWeb' }}>206 </span> </span>)
+                ((<span className="address kish"> No.<span style={{ fontFamily: 'irSansWeb' }}>206 </span>, Almas Complex , Qeshm </span>)
                 )
               )}
             </div>
           </div>
+       
         </div>
-    </div>
+      </div>
     </div>
   );
 }

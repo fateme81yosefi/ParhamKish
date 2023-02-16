@@ -61,7 +61,6 @@ export default function About() {
     }
   }, [inView]);
 
-  console.log("in view = ", inView);
   return (
     <div className="containAbout" id="about" style={{ overflow: "hidden" }}>
       <div className="row">
@@ -77,7 +76,7 @@ export default function About() {
             {LangId === "fa" ? (
               <h1>درباره ما </h1>
             ) : (
-              <h1 className="en-big-title"> About Us </h1>
+              <h1 className="en-big-title"> About   Us </h1>
             )}
           </motion.div>
         </div>
@@ -97,11 +96,11 @@ export default function About() {
             </p>
           ) : (
             <p className="headlitt">
-              <span className="parhamColor"> Parham Kish</span> About
+              About <span className="parhamColor"> Parham Kish</span> 
             </p>
           )}
         </div>
-        <div className="row" style={{ overflow: "hidden" }}>
+        <div className="row" style={{ overflow: "hidden" ,position:"relative" , zIndex:"123"}}>
           <motion.div
             ref={ref}
             variants={imageVarien}
@@ -114,74 +113,77 @@ export default function About() {
               src="https://s6.uupload.ir/files/about-us-parham-kish-min_6jxs.jpg"
             />
           </motion.div>
-       <div className="col-md-12 col-lg-8 contain2colAbout">
-       <div className="col-sm-12 col-lg-6 aboutTxt">
-            {LangId === "fa" ? (
-              <p style={stylee} className="fa-about">
-                بسیاری نظیر گواهی ثبت اختراع به شماره، ۶۸۳۴۰ عضویت بنیاد ملی
-                نخبگان و دریافت گواهی شرکت دانش بنیان از معاونت علمی و پژوهشی
-                ریاست جمهوری، دریافت مجوز بند ب از وزارت میراث فرهنگی ، گردشگری
-                و صنایع دستی و همینطور مفتخر به دریافت عنوان فناور برتر گردیده
-                است. این هلدینگ به منظور توسعه فعالیت خود در سطح بین الملل اقدام
-                به راه اندازی نخستین دفتر خود رد خارج از مرزهای ایران کرده و در
-                سال ۲۰۱۸ اقدام به ایجاد شعبه در کشور استونی و در شهر تالین تحت
-                عنوان تجارت الکترونیک زوناکس کرد. شرکت های تابعه این هلدینگ
-                پروژه ها و محصولات بسیاری را در حوزه فناوری اطلاعات و ارتباطات
-                تا کنون طراحی، اجرا و روانه بازار کرده و اقدامات موثر بسیاری نیز
-                در خصوص هوشمند سازی سازمان ها توسط این مجموعه صورت پذیرفته است.
-              </p>
-            ) : (
-              <p style={stylee} className="en-about EN-FONT">
-                renowned as a pioneer holding company in Information and
-                communication technology across the globe. The international
-                holding company of electronic commerce Parham kish has taken
-                huge and positive steps in the realm of “Electronic Commerce”
-                and “Information and communication technology “. Meanwhile we
-                have been awarded licenses, Standards, and a variety of plaques
-                of honor including letters patent with the reference number
-                68340 from Iran Patent Office, Membership in Iran's National
-                Elites Foundation, certificate of the Knowledge Enterprise from
-                vice-presidency for science and technology, and travel services
-                license, section B with the reference number 1400/م گ/1451, from
-                Ministry of Cultural Heritage, Handicrafts and Tourism.
-              </p>
-            )}
+          <div className="col-md-12 col-lg-8 contain2colAbout">
+            <div className="col-sm-12 col-lg-6 aboutTxt">
+              {LangId === "fa" ? (
+                <p style={stylee} className="fa-about">
+                   افتخار بسیاری نظیر گواهی ثبت اختراع به شماره، ۶۸۳۴۰ 
+                  عضویت بنیاد ملی نخبگان و دریافت گواهی شرکت دانش بنیان از
+                  معاونت علمی و پژوهشی ریاست جمهوری، دریافت مجوز بند ب از وزارت
+                  میراث فرهنگی، گردشگری و صنایع دستی و همینطور مفتخر به دریافت
+                  عنوان فناور برتر گردیده است. این هلدینگ به منظور توسعه فعالیت
+                  خود در سطح بین الملل اقدام به راه اندازی نخستین دفتر خود رد
+                  خارج از مرزهای ایران کرده و در سال ۲۰۱۸ اقدام به ایجاد شعبه در
+                  کشور استونی و در شهر تالین تحت عنوان تجارت الکترونیک زوناکس
+                  کرد. شرکت های تابعه این هلدینگ پروژه ها و محصولات بسیاری را در
+                  حوزه فناوری اطلاعات و ارتباطات تا کنون طراحی، اجرا و روانه
+                  بازار کرده و اقدامات موثر بسیاری نیز در خصوص هوشمند سازی
+                  سازمان ها توسط این مجموعه صورت پذیرفته است.
+                </p>
+              ) : (
+                <p style={stylee} className="en-about EN-FONT">
+                  is renowned as a pioneer holding company in Information and
+                  communication technology across the globe. The international
+                  holding company of electronic commerce Parham kish has taken
+                  huge and positive steps in the realm of “Electronic Commerce”
+                  and “Information and communication technology “. Meanwhile we
+                  have been awarded licenses, Standards, and a variety of
+                  plaques of honor including letters patent with the reference
+                  number 68340 from Iran Patent Office, Membership in Iran's
+                  National Elites Foundation, certificate of the Knowledge
+                  Enterprise from vice-presidency for science and technology,
+                  and travel services license, section B with the reference
+                  number 1400/م گ/1451, from Ministry of Cultural Heritage,
+                  Handicrafts and Tourism.
+                </p>
+              )}
+            </div>
+            <div className="col-sm-12 col-lg-6 aboutTxt">
+              {LangId === "fa" ? (
+                <p style={stylee} className="fa-about">
+                  هلدینگ بین‌المللی تجارت الکترونیک پرهام کیش، یک مجموعه متشکل
+                  از چندین شرکت فعال در حوزه فناوری اطلاعات و ارتباطات بوده
+                  ودرزمینه مشاوره و انتقال تکنولوژی در حوزه تجارت الکترونیک،
+                  اجرای طرح های جامع فناوری اطلاعات و ارتباطات، طراحی و اجرای
+                  سامانه‌های کلان داده ها،(بیگ دیتا) طراحی و اجرای نظام های
+                  بازاریابی و پیاده سازی بسترهای ارتباطی با مخاطبان ومشتریان با
+                  شیوه های نوین ارتباطی‌تعاملی فعالیت می نماید. این مجموعه
+                  فعالیت خود را از سال ۱۳۸۸ با نام تجارت الکترونیک پرهام در
+                  جزیره کیش آغاز کرده و پس از گذشت بیش یک  دهه  از  فعالیت  آن
+                  امروزه به عنوان یک هلدینگ پیشرو در فناوری اطلاعات و ارتباطات
+                  در سطح بین الملل شناخته می شود. پرهام کیش در حوزه تجارت
+                  الکترونیک و فناوری اطلاعات و ارتباطات گام های بلند و مثبتی
+                   برداشته است و در این راه موفق به دریافت مجوز ها، استاندارد ها و تندیس های
+                </p>
+              ) : (
+                <p style={stylee} className="en-about EN-FONT">
+                  The international holding company of “Parham Kish“,
+                  specializing in the field of Electronic Commerce, Consists of
+                  multiple firms which are active in the field of Information
+                  and Communications Technology. Our activities include
+                  consultation, and transferring technology in Electronic
+                  Commerce, Implementation of Information and Communication
+                  master plans, design and implementation of big data systems,
+                  Designing and running marketing systems, and implementation of
+                  communication platforms for customers and users with the
+                  state-of-the-art interactive communication methods. Our
+                  company was founded in 1388 in Kish Island and started its
+                  activity under the name of E-commerce Parham Kish. After the
+                  span of a decade, today our company
+                </p>
+              )}
+            </div>
           </div>
-          <div className="col-sm-12 col-lg-6 aboutTxt">
-            {LangId === "fa" ? (
-              <p style={stylee} className="fa-about">
-                هلدینگ بین‌المللی تجارت الکترونیک پرهام کیش، یک مجموعه متشکل از
-                چندین شرکت فعال در حوزه فناوری اطلاعات و ارتباطات بوده و درزمینه
-                مشاوره و انتقال تکنولوژی در حوزه تجارت الکترونیک، اجرای طرح های
-                جامع فناوری اطلاعات و ارتباطات، طراحی و اجرای سامانه‌های کلان
-                داده ها ،(بیگ دیتا)طراحی و اجرای نظام های بازاریابی و پیاده سازی
-                بسترهای ارتباطی با مخاطبان و مشتریان با شیوه های نوین
-                ارتباطی‌تعاملی فعالیت می نماید. این مجموعه فعالیت خود را از سال
-                ۱۳۸۸ با نام تجارت الکترونیک پرهام و در جزیره کیش آغاز کرده و پس
-                از گذشت بیش یک دهه از فعالیت آن، امروزه به عنوان یک هلدینگ پیشرو
-                .در فناوری اطلاعات و ارتباطات در سطح بین الملل شناخته می شود
-                پرهام کیش در حوزه تجارت الکترونیک و فناوری اطلاعات و ارتباطات
-                گام های بلند و مثبتی برداشته است. و در این راه موفق به دریافت
-                مجوز ها استاندارد ها و تندیس های افتخار
-              </p>
-            ) : (
-              <p style={stylee} className="en-about EN-FONT">
-                The international holding company of “Parham Kish“, specializing
-                in the field of Electronic Commerce, Consists of multiple firms
-                which are active in the field of Information and Communications
-                Technology. Our activities include consultation, and
-                transferring technology in Electronic Commerce, Implementation
-                of Information and Communication master plans, design and
-                implementation of big data systems, Designing and running
-                marketing systems, and implementation of communication platforms
-                for customers and users with the state-of-the-art interactive
-                communication methods. Our company was founded in 1388 in Kish
-                Island and started its activity under the name of E-commerce
-                Parham Kish. After the span of a decade, today our company is
-              </p>
-            )}
-          </div>
-       </div>
         </div>
       </div>
     </div>

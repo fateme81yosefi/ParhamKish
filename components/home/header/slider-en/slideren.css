@@ -3,17 +3,21 @@
 }
 .slick-slide {
   background-color: #2e2e2e;
+  font-family: 'irSansUltraLight' !important;
+
 }
 .btnSlideren {
   background-color: transparent;
   border: none;
   color: white;
-  font-weight: 100;
+  font-weight: 100 !important;
   
 }
 .prev-fa1{
   font-weight: 100;
   margin-right: 10px ;
+  font-weight: 100 !important;
+
 }
 .contButtonSlideren {
   position: absolute;
@@ -26,10 +30,13 @@
 }
 .prev-fa1 {
   transition: 1s margin-right;
+  font-family: 'irSansUltraLight' !important;
 }
 .next-en1 {
   transition: 1s margin-left;
   margin-right: 10px ;
+  font-weight: 100 !important;
+  font-family: 'irSansUltraLight' !important;
 
 }
 @keyframes slidebg {
@@ -40,7 +47,7 @@
 
 @media screen and (min-width: 1200px) {
   .contButtonSlideren {
-    left: 120px;
-    margin-top: -70vh;
+    left: 180px;
+    margin-top: -82vh;
   }
 }

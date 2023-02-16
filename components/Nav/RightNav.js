@@ -32,10 +32,14 @@ const LeftNav = ({ open, setOpen }) => {
 
   return (
     <Ul open={open} id="blackNav1">
-      <li>
+      <li style={{ left: "-5px" , position:"relative" }}>
         {" "}
         {LangId === "fa" ? (
-          <Dropdown title="فارسی" placement="RightStart">
+          <Dropdown
+            title="فارسی"
+            placement="RightStart"
+            style={{ left: "30px" }}
+          >
             <Dropdown.Item>فارسی</Dropdown.Item>
             <Dropdown.Item
               onClick={() => {
@@ -46,7 +50,8 @@ const LeftNav = ({ open, setOpen }) => {
             </Dropdown.Item>
           </Dropdown>
         ) : (
-          <Dropdown title="English" placement="RightStart">
+          <Dropdown title="English" placement="RightStart"             style={{ left: "30px" }}
+          >
             <Dropdown.Item
               onClick={() => {
                 setLangId("fa");
@@ -73,7 +78,7 @@ const LeftNav = ({ open, setOpen }) => {
               setOpen(false);
             }}
           >
-            contact us
+            Contact Us
           </a>
         )}
       </li>
@@ -85,7 +90,7 @@ const LeftNav = ({ open, setOpen }) => {
           </a>
         ) : (
           <a href="https://blog.parhamkish.com/" className="header-button">
-            Parham's blog
+            Parham's Blog
           </a>
         )}
       </li>
@@ -123,7 +128,7 @@ const LeftNav = ({ open, setOpen }) => {
             }}
           >
             {" "}
-            products{" "}
+            Products{" "}
           </a>
         )}
       </li>
@@ -146,7 +151,7 @@ const LeftNav = ({ open, setOpen }) => {
               setOpen(false);
             }}
           >
-            projects{" "}
+            Projects{" "}
           </a>
         )}
       </li>
@@ -171,7 +176,7 @@ const LeftNav = ({ open, setOpen }) => {
               setOpen(false);
             }}
           >
-            about us{" "}
+            About Us{" "}
           </a>
         )}
       </li>

@@ -17,8 +17,8 @@
 }
 .black {
   width: 13vw;
-  height: 90vh;
-  background-color: #383838;
+  height: 95vh;
+  background-color: rgb(43, 43, 43);
   z-index: 3;
   position: absolute;
   right: 0;
@@ -166,7 +166,6 @@
     position: absolute;
     z-index: 1;
     width: 200px;
-    opacity: 0.9;
   }
   .containCount {
     right: 19%;
@@ -296,7 +295,7 @@
 }
 @media screen and (min-width: 1600px) {
   .headerInLargeren {
-    left: -175px;
+    left: -188px;
   }
   .headerLogo {
     margin-right: 67px;
@@ -313,5 +312,17 @@
 @media screen and (min-width: 1700px) {
   .headerLogo {
     margin-right: 20px;
+  }
+  .containImag a{
+    margin-bottom: 18px;
+
+  }
+  .ENcontainImage a{
+    margin-bottom: 28px;
+
+  }
+  .blackbigax{
+    MARGIN-TOP: 10PX;
+
   }
 }

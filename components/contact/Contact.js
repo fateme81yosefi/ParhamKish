@@ -22,8 +22,18 @@ export default function Contact() {
     direction: LangId === "fa" ? "rtl" : "ltr",
     textAlign: LangId === "fa" ? "right" : "left",
 
-    right : window.innerWidth > 1900 && LangId==="fa" ? LangId==="fa"?"12.5%" :{} :" 50px",
-    left : window.innerWidth > 1900 &&  LangId==="en" ? LangId==="en"?"20%" :{} :" 50px",
+    right:
+      window.innerWidth > 1900 && LangId === "fa"
+        ? LangId === "fa"
+          ? "12.5%"
+          : {}
+        : " 50px",
+    left:
+      window.innerWidth > 1900 && LangId === "en"
+        ? LangId === "en"
+          ? "20%"
+          : {}
+        : " 50px",
   };
 
   const control = useAnimation();
@@ -48,7 +58,11 @@ export default function Contact() {
   }, [inView]);
 
   return (
-    <div className="containContact" id="contact" style={{ overflow: "hidden", marginTop:"-5%"}}>
+    <div
+      className="containContact"
+      id="contact"
+      style={{ overflow: "hidden", marginTop: "-5%" }}
+    >
       <div className="row">
         <div className="container">
           <motion.div
@@ -59,22 +73,26 @@ export default function Contact() {
             className="containTitlebigEcom containTitlebigEcomcontact"
             style={styleBoldText}
           >
-            {LangId === "fa" ? <h1> تماس با ما </h1> : <h1 className="en-big-title">Contact Us</h1>}
+            {LangId === "fa" ? (
+              <h1> تماس با ما </h1>
+            ) : (
+              <h1 className="en-big-title1">Contact Us</h1>
+            )}
           </motion.div>
         </div>
       </div>
-      <div className="container containerEditMax" >
+      <div className="container containerEditMax">
         <div className="row titleAbout">
           <div className="col-4 lineContact"></div>
           <div className="col-4 lineContact"></div>
           <div className="col-4 lineContact"></div>
           {LangId === "fa" ? (
-            <p className="headlitt" style={{margin:" 12% 0 8% 0% "}}>
+            <p className="headlitt" style={{ margin: " 12% 0 8% 0% " }}>
               تماس با <span className="parhamColor">پرهام کیش</span>
             </p>
           ) : (
-            <p className="headlitt">
-               <span className="parhamColor">Parham Kish</span> Contact
+            <p className="headlitt enlittcontact">
+              Contact <span className="parhamColor"> Parham Kish</span>
             </p>
           )}
         </div>
@@ -82,16 +100,21 @@ export default function Contact() {
           <div className="contactUs col-xs-12 col-lg-4">
             {LangId === "fa" ? (
               <span style={styleef}>
-                <h6 style={styleef}>تماس با ما:</h6>
+                <h6 style={styleef} className="boldtxt">
+                  تماس با ما :
+                </h6>
                 <p style={styleef} className="contactparagraph">
                   کاربران عزیز می‌توانند با استفاده از فرم ذیل و یا اطلاعات تماس
                   شرکت پرهام کیش، نظرات، انتقادات و پیشنهادات خود را بیان نموده
-                   و ما را در جهت رسیدن به اهداف سایت یاری دهند: 
+                   و ما را در جهت رسیدن به اهداف سایت یاری دهند : 
                 </p>
               </span>
             ) : (
               <span style={styleef}>
-                <h6 style={styleef}> Contact Us :</h6>
+                <h6 style={styleef} className="boldtxt">
+                  {" "}
+                  Contact Us :
+                </h6>
                 <p style={styleef} className="contactparagraph">
                   Dear users, you can use the form below Or the contact
                   information of Parham Kish company, opinions, criticisms and
@@ -122,7 +145,11 @@ export default function Contact() {
                 </div>
               ) : (
                 <div className="col-6-create paddingrightget2">
-                  <input type="text" placeholder="Name " style={styleef} />
+                  <input
+                    type="text"
+                    placeholder="First Name "
+                    style={styleef}
+                  />
                 </div>
               )}
             </div>
@@ -154,7 +181,7 @@ export default function Contact() {
                 <div className="col-6-create paddingrightget2">
                   <input
                     type="tel"
-                    placeholder="PhoneNumber * "
+                    placeholder="Phone Number * "
                     required
                     style={styleef}
                   />
@@ -178,7 +205,7 @@ export default function Contact() {
                   <textarea
                     required
                     type="text"
-                    placeholder="Message Text *  "
+                    placeholder="Message *  "
                     style={styleef}
                     className="messageTxt"
                   />
@@ -188,9 +215,11 @@ export default function Contact() {
 
             <div className="responsive-kadr">
               {LangId === "fa" ? (
-                <button className="send"><span style={{marginRight:"10px"}}>←</span>ارسال پیام </button>
+                <button className="send sendFa">
+                  <span style={{ marginRight: "10px" }}>←</span>ارسال پیام{" "}
+                </button>
               ) : (
-                <button className="send">→ send Message</button>
+                <button className="send"> send Message</button>
               )}
             </div>
           </div>

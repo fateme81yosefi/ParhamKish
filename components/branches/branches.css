@@ -1,5 +1,5 @@
 .containBranch {
-  background-color: #2e2e2e;
+  background-color: #272727;
   padding-bottom: 15%;
 }
 
@@ -250,6 +250,13 @@
 }
 
 @media screen and (min-width: 1400px) {
+  .test{
+    text-align: justify;
+    /* display: flex; */
+    /* width: 100%;
+    flex-direction: column; */
+  }
+ 
   .cityy {
     width: 18px;
   }

@@ -44,7 +44,7 @@ export default class SliderHeader1 extends Component {
               alt="sliderImage1"
               className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
-              style={{ height: "90vh", width: "100%" }}
+              style={{ height: "95vh", width: "100%" }}
             ></img>
             <TextOnHeader
               title={"اخذ مجوز خدمات مسافرتی و گردشگری(بند ب)"}
@@ -53,12 +53,12 @@ export default class SliderHeader1 extends Component {
               currSlide={this.state.currSlide}
             />
           </div>
-          <div>
+          {/* <div>
             <img
               alt="sliderImage2"
               className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
-              style={{ height: "90vh", width: "100%" }}
+              style={{ height: "95vh", width: "100%" }}
             ></img>
             <TextOnHeader
               title={"عضویت در بنیاد ملی نخبگان کشور"}
@@ -72,7 +72,7 @@ export default class SliderHeader1 extends Component {
               alt="sliderImage3"
               className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
-              style={{ height: "90vh", width: "100%" }}
+              style={{ height: "95vh", width: "100%" }}
             ></img>
             <TextOnHeader
               title={"اخذ گواهی دانش بنیان از معاونت علمی ریاست جمهوری"}
@@ -86,7 +86,7 @@ export default class SliderHeader1 extends Component {
               alt="sliderImage3"
               className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
-              style={{ height: "90vh", width: "100%" }}
+              style={{ height: "95vh", width: "100%" }}
             ></img>
             <TextOnHeader
               title={"گواهی ثبت اختراع"}
@@ -100,7 +100,7 @@ export default class SliderHeader1 extends Component {
               alt="sliderImage3"
               className="imgInSliderHead"
               src="https://s6.uupload.ir/files/slider-2-min_nlny.jpg"
-              style={{ height: "90vh", width: "100%" }}
+              style={{ height: "95vh", width: "100%" }}
             ></img>
             <TextOnHeader
               title={"فناور برتر سال ۱۴۰۱"}
@@ -108,7 +108,7 @@ export default class SliderHeader1 extends Component {
               slideID={4}
               currSlide={this.state.currSlide}
             />
-          </div>  
+          </div>   */}
         </Slider>
 
         <Butt {...this} />

@@ -133,7 +133,7 @@
   .fa-menue-ul {
     padding: 0 10px !important;
     margin: 0 !important;
-    left: -4px;
+    left: 30px;
    }
   .fa-menue-ul li{
    width: 100%;
@@ -233,7 +233,6 @@
     top: 0;
     left: 16%;
     left: 6%;
-
     width: 60%;
   }
   .textContainer h1{
@@ -258,18 +257,22 @@
     position: absolute;
   }
   .ulcollectionEn li{
-    margin-left: 54px;
+    margin-left: 35px;
   }
   .ulcollectionfa li{
-    margin-left: 43px;
+    margin-left: 34px;
   }
   .headerInLarger{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   margin-top: 47px;
+   margin-top: 70px;
   position: relative;
   z-index: 234;
+  }
+  .headerInLargerFa{
+    margin-top: 47px;
+
   }
   .fa-drop-first{
     margin-right: -15px;

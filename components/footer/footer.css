@@ -1,5 +1,5 @@
 .containFooter {
-  background-color: #272727;
+  background-color: rgb(25, 25, 25);
   padding: 1%;
   z-index: 111;
   position: relative;
@@ -36,5 +36,8 @@
   .footerTxt{
     padding: 0px;
 
+  }
+  .footerTxt{
+    font-size: 14px;
   }
 }

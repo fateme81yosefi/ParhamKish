@@ -79,7 +79,7 @@ export default function EcomEn() {
             className="containTitlebigEcom containTitlebigEcomown"
             style={styleBoldText}
           >
-            {LangId === "fa" ? <h1>خانواده ایکام</h1> : <h1 className="en-big-title"> Ecom </h1>}
+            {LangId === "fa" ? <h1>خانواده ایکام</h1> : <h1 className="en-big-title"> Parham Kish </h1>}
           </motion.div>
         </div>
       </div>
@@ -117,7 +117,7 @@ export default function EcomEn() {
 
          
               <span className="titleEcdesc cvdv">
-                 By dialing this code, become a member of the Ecom family :)
+                 (: Become a member of Parham family by dialing this code 
               </span>
           </div>
         </div>

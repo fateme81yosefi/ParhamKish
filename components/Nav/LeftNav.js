@@ -52,10 +52,11 @@ const RightNav = ({ open, setOpen }) => {
 
   return (
     <Ul open={open} style={RightSty} id="blackNav2">
-      <li>
+      <li style={{ left: "5px" , position:"relative" }}>
         {" "}
         {LangId === "fa" ? (
-          <Dropdown title="فارسی">
+          <Dropdown title="فارسی" 
+          >
             <Dropdown.Item>فارسی</Dropdown.Item>
             <Dropdown.Item
               onClick={() => {
@@ -66,7 +67,8 @@ const RightNav = ({ open, setOpen }) => {
             </Dropdown.Item>
           </Dropdown>
         ) : (
-          <Dropdown title="English">
+          <Dropdown title="English"
+          >
             <Dropdown.Item
               onClick={() => {
                 setLangId("fa");
@@ -99,7 +101,7 @@ const RightNav = ({ open, setOpen }) => {
               document.getElementById("blackNav2").style.display = "none";
             }}
           >
-            contact us
+            Contact Us
           </a>
         )}
       </li>
@@ -111,7 +113,7 @@ const RightNav = ({ open, setOpen }) => {
           </a>
         ) : (
           <a href="https://blog.parhamkish.com/" className="header-button">
-            Parham's blog
+            Parham's Blog
           </a>
         )}
       </li>
@@ -150,7 +152,7 @@ const RightNav = ({ open, setOpen }) => {
             }}
           >
             {" "}
-            products{" "}
+            Products{" "}
           </a>
         )}
       </li>
@@ -173,7 +175,7 @@ const RightNav = ({ open, setOpen }) => {
               setOpen(false);
             }}
           >
-            projects{" "}
+            Projects{" "}
           </a>
         )}
       </li>
@@ -198,7 +200,7 @@ const RightNav = ({ open, setOpen }) => {
               setOpen(false);
             }}
           >
-            about us{" "}
+            About Us{" "}
           </a>
         )}
       </li>

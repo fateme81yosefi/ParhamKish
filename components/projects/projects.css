@@ -1,5 +1,5 @@
 .containProjects {
-  background-color: #2e2e2e;
+  background-color: #272727;
   font-size: 2rem;
   text-align: center !important;
   font-weight: 900;
@@ -150,5 +150,9 @@
 }
 .logoProject{
   top:89%;
+}
+.projlitttiltle{
+  margin-bottom: 6% !important;
+
 }
 }

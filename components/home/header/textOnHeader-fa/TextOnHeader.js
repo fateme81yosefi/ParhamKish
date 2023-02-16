@@ -59,7 +59,7 @@ export default function TextOnHeader(props) {
       <>
         <motion.div className="textContainer">
           {/* {LangId === "fa" ? ( */}
-          <div className="headerInLarger">
+          <div className="headerInLarger headerInLargerFa">
             <ul className="ulcollection ulcollectionfa">
               <li className="fa-drop-first">
                 {" "}
@@ -100,7 +100,7 @@ export default function TextOnHeader(props) {
                   </a>
                 ) : (
                   <a href="#contact" className="header-button">
-                    contact us
+                    Contact Us
                   </a>
                 )}
               </li>
@@ -118,7 +118,7 @@ export default function TextOnHeader(props) {
                     href="https://blog.parhamkish.com/"
                     className="header-button"
                   >
-                    Parham's blog
+                    Parham's Blog
                   </a>
                 )}
               </li>
@@ -144,7 +144,7 @@ export default function TextOnHeader(props) {
                 ) : (
                   <a href="#products" className="header-button">
                     {" "}
-                    products{" "}
+                    Products{" "}
                   </a>
                 )}
               </li>
@@ -155,7 +155,7 @@ export default function TextOnHeader(props) {
                   </a>
                 ) : (
                   <a href="#projects" className="header-button">
-                    projects{" "}
+                    Projects{" "}
                   </a>
                 )}
               </li>
@@ -174,7 +174,7 @@ export default function TextOnHeader(props) {
                     className="header-button"
                     style={{ color: "#d0ad67" }}
                   >
-                    about us{" "}
+                    About Us{" "}
                   </a>
                 )}
               </li>

@@ -79,7 +79,7 @@ export default function Ecom() {
             className="containTitlebigEcom containTitlebigEcomown"
             style={styleBoldText}
           >
-            {LangId === "fa" ? <h1>خانواده ایکام</h1> : <h1> Ecom </h1>}
+            {LangId === "fa" ? <h1>پرهام کیش </h1> : <h1> Parham Kish </h1>}
           </motion.div>
         </div>
       </div>
@@ -108,7 +108,7 @@ export default function Ecom() {
           <div className="col-xs-12 col-md-6 ecomDisplay ecomDisplayLeft">
             {LangId === "fa" ? (
               <span
-                className="titleEcNum"
+                className="titleEcNum titleEcNumFa"
                 style={{ fontFamily: "irSansWebBolder" }}
               >
                 <b>
@@ -126,7 +126,7 @@ export default function Ecom() {
             <br></br>
 
             {LangId === "fa" ? (
-              <span className="titleEcdesc">
+              <span className="titleEcdesc titleEcdescFa">
                 (: با شماره گیری این کد، عضو خانواده ایکام شوید
               </span>
             ) : (
