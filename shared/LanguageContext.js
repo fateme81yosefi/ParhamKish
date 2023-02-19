@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 export const LangContext = createContext();
 
 export const LangProvider = (props) => {
-  const [LangId, setLangId] = useState("fa");
+  const [LangId, setLangId] = useState("en");
 
   return (
     <LangContext.Provider value={[LangId, setLangId]}>

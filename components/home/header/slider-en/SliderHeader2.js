@@ -69,7 +69,7 @@ export default class SliderHeader2 extends Component {
             />
               <TextOnHeader1
                 title={
-                  "Obtaining a knowledge-based certificate from the Scientific Vice President"
+                  "Membership in the National Elite Foundation of the country"
                 }
                 description={""}
                 slideID={1}

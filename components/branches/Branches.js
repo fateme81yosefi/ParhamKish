@@ -128,116 +128,299 @@ export default function Branches() {
 
         <div className="infoAddress" style={stylee}>
           <div className="rowArtificial" id="tehcont" style={styleeff}>
-            <div className="col-xs-12 col-lg-4" style={{ display: "flex" }}>
+            <div className="contNumberLine" style={{ display: "flex" }}>
               {LangId === "fa" ? (
-                <span className="contant">+ ۹۸۲۱۸۸۲۴۰۰۰۶-۷  </span>
+                <span className="contant contantFa">
+                  <span>+</span>
+                  <span>۹</span>
+                  <span>۸</span>
+                  <span>۲</span>
+                  <span>۱</span>
+                  <span>۸</span>
+                  <span>۸</span>
+                  <span>۲</span>
+                  <span>۴</span>
+                  <span>۰</span>
+                  <span>۰</span>
+                  <span>۰</span>
+                  <span>۶</span>
+                  <span>-</span>
+                  <span>۷</span>
+                </span>
               ) : (
-                <span className="contant EN-FONT" style={{ fontFamily: 'irSansWeb' }}>
-                  982188240006-7+
+                <span
+                  className="contant EN-FONT"
+                  style={{ fontFamily: "irSansWeb" }}
+                >
+                  <span>+</span>
+                  <span>9</span>
+                  <span>8</span>
+                  <span>2</span>
+                  <span>1</span>
+                  <span>8</span>
+                  <span>8</span>
+                  <span>2</span>
+                  <span>4</span>
+                  <span>0</span>
+                  <span>0</span>
+                  <span>0</span>
+                  <span>6</span>
+                  <span>-</span>
+                  <span>7</span>
                 </span>
               )}
             </div>
-            <div className="col-xs-12 col-lg-8">
+            <div className="contAddressLine">
               {LangId === "fa" ? (
-                <span className="city teh boldtxt">تهران:</span>
+                <span className="city teh boldtxt"> :تهران</span>
               ) : (
-                <span className="city teh boldtxt">Tehran:</span>
+                <span className="city teh boldtxt"> :Tehran </span>
               )}
 
               {LangId === "fa" ? (
-                <span className="address teh"> سعادت آباد، ساختمان اریکه ایرانیان</span>
+                <span className="address addressFa teh">
+                  {" "}
+                  <span> سعادت آباد</span>
+                  <span> ، </span>
+                  <span> ساختمان </span>
+                  <span> اریکه </span>
+                  <span> ایرانیان</span>
+                </span>
               ) : (
-                <span className="address teh">  Arike Iranian bldg, Saadat Abad quarter , Tehran</span>
-
+                <span className="address teh">
+                  <span>Arike</span>
+                  <span>Iranian</span>
+                  <span>bldg</span>
+                  <span>,</span>
+                  <span>Saadat</span>
+                  <span>Abad</span>
+                  <span>quarter</span>
+                  <span>,</span>
+                  <span>Tehran</span>
+                </span>
               )}
             </div>
           </div>
 
           <div className="rowArtificial" id="mashcont" style={styleeff}>
-            <div className="col-xs-12 col-lg-4" style={{ display: "flex" }}>
+            <div className="contNumberLine" style={{ display: "flex" }}>
               {LangId === "fa" ? (
-                <span className="contant">+ ۹۸۵۱۳۷۱۳۱۴۱۶-۱۷  </span>
+                <span className="contant contantFa">
+                  <span>+</span>
+                  <span>۹</span>
+                  <span>۸</span>
+                  <span>۵</span>
+                  <span>۱</span>
+                  <span>۳</span>
+                  <span>۷</span>
+                  <span>۱</span>
+                  <span>۳</span>
+                  <span>۱</span>
+                  <span>۴</span>
+                  <span>۱</span>
+                  <span>۶</span>
+                  <span>-</span>
+                  <span>۱</span>
+                  <span>۷</span>
+                </span>
               ) : (
-                <span className="contant EN-FONT" style={{ fontFamily: 'irSansWeb' }}>
-                  985137131416-17+
+                <span
+                  className="contant EN-FONT"
+                  style={{ fontFamily: "irSansWeb" }}
+                >
+                  {" "}
+                  <span>+</span>
+                  <span>9</span>
+                  <span>8</span>
+                  <span>5</span>
+                  <span>1</span>
+                  <span>3</span>
+                  <span>7</span>
+                  <span>1</span>
+                  <span>3</span>
+                  <span>1</span>
+                  <span>4</span>
+                  <span>1</span>
+                  <span>6</span>
+                  <span>-</span>
+                  <span>1</span>
+                  <span>7</span>
                 </span>
               )}
             </div>
-            <div className="col-xs-12 col-lg-8">
+            <div className="contAddressLine">
               {LangId === "fa" ? (
                 <span className="city mash boldtxt" id="mashhad">
-                  مشهد:
+                   :مشهد  
                 </span>
               ) : (
                 <span className="city mash boldtxt" id="mashhadAddress">
-                  Mashhad:
+                  :Mashhad
                 </span>
               )}
 
-              {LangId === "fa" ? ( 
-                <span className="address mash"> خیابان سناباد، بلوار مجد، مجد۱، پلاک ۸{" "} </span>
-
+              {LangId === "fa" ? (
+                <span className="address addressFa mash">
+                  <span>خیابان</span>
+                  <span>،سناباد </span>
+                  <span>بلوار</span>
+                  <span>،مجد</span>
+                  <span>مجد</span>
+                  <span>،۱</span>
+                  <span>پلاک</span>
+                  <span>۸</span>
+                </span>
               ) : (
-                <span className="address mash"> No. <span style={{ fontFamily: 'irSansWeb' }}>8 , 1</span> st Majd, Sanabad Ave. , Mashhad{" "}</span>
+                <span className="address mash">
+                  {" "}
+                  <span>.No</span>
+                  <span style={{ fontFamily: "irSansWeb" }}>8, </span>
+                  <span>1 st</span>
+                  <span>Majd,</span>
+                  <span>Sanabad</span>
+                  <span>,Ave.</span>
+                  <span>Mashhad</span>
+                </span>
               )}
             </div>
           </div>
-          
+
           <div className="rowArtificial" id="kicont" style={styleeff}>
-            <div className="col-xs-12 col-lg-4" style={{ display: "flex" }}>
+            <div className="contNumberLine" style={{ display: "flex" }}>
               {LangId === "fa" ? (
-                <span className="contant">+ ۹۸۷۶۴۴۴۷۰۱۵۲  </span>
+                <span className="contant contantFa">
+                  <span>+</span>
+                  <span>۹</span>
+                  <span>۸</span>
+                  <span>۷</span>
+                  <span>۶</span>
+                  <span>۴</span>
+                  <span>۴</span>
+                  <span>۴</span>
+                  <span>۷</span>
+                  <span>۰</span>
+                  <span>۱</span>
+                  <span>۵</span>
+                  <span>۲</span>
+                </span>
               ) : (
-                <span className="contant EN-FONT" style={{ fontFamily: 'irSansWeb' }}>
-                  987644470152+
+                <span
+                  className="contant EN-FONT"
+                  style={{ fontFamily: "irSansWeb" }}
+                >
+                  {" "}
+                  <span>+</span>
+                  <span>9</span>
+                  <span>8</span>
+                  <span>7</span>
+                  <span>6</span>
+                  <span>4</span>
+                  <span>4</span>
+                  <span>4</span>
+                  <span>7</span>
+                  <span>0</span>
+                  <span>1</span>
+                  <span>5</span>
+                  <span>2</span>
                 </span>
               )}
             </div>
-            <div className="col-xs-12 col-lg-8">
+            <div className="contAddressLine">
               {LangId === "fa" ? (
-                <span className="city kish boldtxt">کیش:</span>
+                <span className="city kish boldtxt"> : کیش  </span>
               ) : (
-                <span className="city kish boldtxt">Kish:</span>
+                <span className="city kish boldtxt">:Kish</span>
               )}
 
               {LangId === "fa" ? (
-                <span className="address kish"> ساختمان مرکز نوآوری</span>
+                <span className="address addressFa kish">
+                  <span> ساختمان </span>
+                  <span>مرکز</span>
+                  <span> نوآوری</span>
+                </span>
               ) : (
-                <span className="address kish"> Noavari Complex , Kish </span>
+                <span className="address kish">
+                  <span>Noavari</span>
+                  <span>,Complex</span>
+                  <span>Kish</span>
+                </span>
               )}
             </div>
           </div>
 
-          <div className="rowArtificial rowArtificLast" id="qeshcont" style={styleeff}>
-            <div className="col-xs-12 col-lg-4" style={{ display: "flex" }}>
+          <div
+            className="rowArtificial rowArtificLast"
+            id="qeshcont"
+            style={styleeff}
+          >
+            <div className="contNumberLine" style={{ display: "flex" }}>
               {LangId === "fa" ? (
-                <span className="contant"> + ۹۸۷۶۳۵۲۱۸۰۸۴  </span>
+                <span className="contant contantFa">
+                  <span>+</span>
+                  <span>۹</span>
+                   <span>۸</span>
+                  <span>۷</span>
+                  <span>۶</span>
+                  <span>۳</span>
+                  <span>۵</span>
+                  <span>۲</span>
+                  <span>۱</span>
+                  <span>۸</span>
+                  <span>۰</span>
+                  <span>۸</span>
+                  <span>۴</span>
+                </span>
               ) : (
-                <span className="contant EN-FONT" style={{ fontFamily: 'irSansWeb' }}>
-                  987635218084+
+                <span
+                  className="contant EN-FONT"
+                  style={{ fontFamily: "irSansWeb" }}
+                >
+                  {" "}
+                  <span>+</span>
+                  <span>9</span>
+                  <span>8</span>
+                  <span>7</span>
+                  <span>6</span>
+                  <span>3</span>
+                  <span>5</span>
+                  <span>2</span>
+                  <span>1</span>
+                  <span>8</span>
+                  <span>0</span>
+                  <span>8</span>
+                  <span>4</span>
                 </span>
               )}
             </div>
-            <div className="col-xs-12 col-lg-8">
+            <div className="contAddressLine">
               {LangId === "fa" ? (
                 <span className="city qesh boldtxt" id="qeshm">
-                  قشم:
+                     : قشم  
                 </span>
               ) : (
                 <span className="city qesh boldtxt" id="qeshmAddress">
-                  Qeshm:
+                   :Qeshm
                 </span>
               )}
 
               {LangId === "fa" ? (
-                <span className="address kish"> مجتمع الماس ، واحد ۲۰۶</span>
+                <span className="address addressFa kish">
+                  <span> مجتمع</span>
+                  <span> ،الماس</span>
+                  <span> واحد</span>
+                  <span> ۲۰۶</span>
+                </span>
               ) : (
-                ((<span className="address kish"> No.<span style={{ fontFamily: 'irSansWeb' }}>206 </span>, Almas Complex , Qeshm </span>)
-                )
+                <span className="address kish">
+                  <span>.No</span>{" "}
+                  <span style={{ fontFamily: "irSansWeb" }}>,206 </span>
+                  <span>Almas</span>
+                  <span>,Complex</span>
+                  <span>Qeshm</span>
+                </span>
               )}
             </div>
           </div>
-       
         </div>
       </div>
     </div>

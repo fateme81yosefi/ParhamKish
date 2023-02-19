@@ -83,6 +83,31 @@
 .rowArtificLast {
   margin-bottom: 0 !important;
 }
+.rowArtificial{
+  font-size: 10px;
+}
+.contAddressLine{
+  display: flex;
+flex-direction: row-reverse;
+}
+.contant{
+  display: flex;
+  flex-direction: row;
+}
+.contNumberLine{
+  display: flex;
+  flex-direction: row ;
+}
+.contNumberLine {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.contant {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row-reverse;
+}
 @media screen and (min-width: 368px) {
   .city3 {
     top: 23px;
@@ -217,12 +242,7 @@
     top: 77px;
     right: 11px;
   }
-  .rowArtificial {
-    font-size: 100%;
-
-    /* flex-direction: column-reverse; */
-    /* text-align: center !important; */
-  }
+ 
   .contant {
     text-align: justify;
   }
@@ -250,13 +270,47 @@
 }
 
 @media screen and (min-width: 1400px) {
-  .test{
-    text-align: justify;
-    /* display: flex; */
-    /* width: 100%;
-    flex-direction: column; */
+  .address {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+    flex-direction: row-reverse;
   }
- 
+  .contAddressLine {
+    width: 290px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .contNumberLine{
+    width: 110px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+  }
+  .addressFa{
+    width: 215px;
+
+  }
+  .contant {
+    width: 110px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 11px;
+
+  }
+  .city{
+    margin-right: 5px;
+    margin-left: 5px;
+
+  }
+  .contantFa{
+    flex-direction: row;
+
+  }
+
   .cityy {
     width: 18px;
   }

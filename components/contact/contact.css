@@ -90,11 +90,7 @@ textarea {
 .contant {
   text-align: justify;
 }
-.contant:after {
-  content: "";
-  display: inline-block;
-  /* width: 100%; */
-}
+
 .boldtxt {
   font-weight: 700;
 }
