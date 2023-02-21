@@ -6,8 +6,10 @@ export default function Footer() {
   const [LangId, setLangId] = useContext(LangContext);
 
   const sty = {
-    justifyContent: LangId === "fa" ? "end" : "start",
+    justifyContent: LangId === "fa" ? "left" : "right",
+    direction:LangId === "fa" ? "rtl" : "ltr",
   };
+ 
   return (
     <div className="containFooter">
       <div className="container containerEditMax">
@@ -23,8 +25,7 @@ export default function Footer() {
           </span>
         ) : (
           <span className="footerTxt EN-FONT" style={sty}>
-           . 2022 © All intellectual and material rights of this website belong
-            to Parham Kish Holding
+          ©2023 Parham Kish, All rights reserved
           </span>
         )}
       </div>

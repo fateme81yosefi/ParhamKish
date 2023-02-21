@@ -104,10 +104,25 @@
   scale: 1.5;
 }
 .totalnumslide {
+  /* animation: example;
+  animation-duration: 2s;
+  animation-iteration-count: 1; */
+  /* opacity: 1; */
+  margin-bottom: 25px;
+}
+.transition1 {
+  /* transition: 1s; */
+   animation: example; 
+   animation-duration: 2s;
+
+
+}
+.transition2 {
+  /* transition: 1s; */
   animation: example;
   animation-duration: 2s;
   animation-iteration-count: 1;
-  margin-bottom: 25px;
+  /* animation-delay: 1s; */
 }
 
 @keyframes example {
@@ -121,7 +136,9 @@
     opacity: 1;
   }
 }
-
+.opzero {
+  opacity: 0;
+}
 .responsiveblackFa {
   right: 13vw;
 }
@@ -222,7 +239,7 @@
     margin-top: 19vh !important;
     margin-bottom: 4.5vh;
   }
-  .black p{
+  .black p {
     font-size: 0.9rem;
   }
 }
@@ -313,16 +330,13 @@
   .headerLogo {
     margin-right: 20px;
   }
-  .containImag a{
+  .containImag a {
     margin-bottom: 18px;
-
   }
-  .ENcontainImage a{
+  .ENcontainImage a {
     margin-bottom: 28px;
-
   }
-  .blackbigax{
-    MARGIN-TOP: 10PX;
-
+  .blackbigax {
+    margin-top: 10px;
   }
 }

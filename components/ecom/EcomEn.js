@@ -116,8 +116,8 @@ export default function EcomEn() {
             <br></br>
 
          
-              <span className="titleEcdesc cvdv">
-                 (: Become a member of Parham family by dialing this code 
+              <span className="titleEcdesc cvdv" style={{direction: "ltr"}}>
+                   Become a member of Parham family by dialing this code  :) 
               </span>
           </div>
         </div>

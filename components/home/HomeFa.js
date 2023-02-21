@@ -12,15 +12,13 @@ import Ecom from "../ecom/Ecom";
 import Footer from "../footer/Footer";
 import Products from "../products/Products";
 import Projects from "../projects/Projects";
-import TextOnHeader from "./header/textOnHeader-fa/TextOnHeader";
-import TextOnHeader1 from "./header/textOnHeader-en/TextOnHeader1";
+
 import { LangContext, CountContext } from "../../shared/LanguageContext";
 import "./home.css";
 import Navbarr from "../Nav/Navbarr";
 import SliderHeader2 from "./header/slider-en/SliderHeader2";
 import SliderHeader1 from "./header/slider-fa/SliderHeader1";
 import { FaTelegramPlane } from "react-icons/fa";
-import { Dropdown, ButtonToolbar } from "rsuite";
 
 export default function HomeFa() {
   const [LangId, setLangId] = useContext(LangContext);
@@ -53,7 +51,6 @@ export default function HomeFa() {
     else if (window.innerWidth > 1600 && LangId == "en")
       setleftmarginer("212px");
 
-
     if (window.innerWidth < 1200 && LangId === "fa") setrightmarginer("13vw");
     else if (
       window.innerWidth > 1200 &&
@@ -79,21 +76,25 @@ export default function HomeFa() {
       LangId === "fa"
     )
       setrightmarginer("14vw");
-
-      else if (
-        window.innerWidth > 1500 &&
-        window.innerWidth < 1600 &&
-        LangId === "fa"
-      )
-        setrightmarginer("13vw");
-
+    else if (
+      window.innerWidth > 1500 &&
+      window.innerWidth < 1600 &&
+      LangId === "fa"
+    )
+      setrightmarginer("13vw");
     else if (window.innerWidth > 1600 && LangId === "fa")
       setrightmarginer("212px");
   };
 
   useEffect(() => {
+
+    document.getElementById("totalnumslideId").classList.add("transition1");
+    // document.getElementById("totalnumslideId").classList.toggle("transition2");
+
     interval.current = setInterval(() => {
       setCount((x) => (x + 1 > 5 ? 1 : x + 1));
+      document.getElementById("totalnumslideId").classList.remove("transition1");
+
     }, 5000);
 
     return () => {
@@ -111,11 +112,10 @@ export default function HomeFa() {
     left: LangId === "fa" ? "" : "0",
   };
 
-
   const blackpSty = {
     marginTop: LangId === "en" ? "14rem" : {},
   };
-  
+
   const containCountSty = {
     transform: LangId === "en" ? "rotate(-181deg)" : "",
   };
@@ -129,36 +129,36 @@ export default function HomeFa() {
     <div style={stylee}>
       <div className="backgroundImageHeader">
         <div className="container" style={{ color: "red" }}>
-          <div className="containBlackImage responsiveblackFa" >
-              <img
-                alt="backCounter"
-                src="https://s6.uupload.ir/files/top-icon_ufka.png"
-              ></img>
-           
+          <div className="containBlackImage responsiveblackFa">
+            <img
+              alt="backCounter"
+              src="https://s6.uupload.ir/files/top-icon_ufka.png"
+            />
 
             <div className="containCount" style={containCountSty}>
-            
-                <div className="containerInCount">
-                  <h4 className="currslide" style={{ marginLeft: "12px" }}>
-                    /۰۵
-                  </h4>
-                  <h1
-                    className="totalnumslide"
-                    style={{ fontFamily: "irSansWebFA" }}
-                  >
-                    ۰{Count}
-                  </h1>
-                </div>
+              <div className="containerInCount">
+                <h4 className="currslide" style={{ marginLeft: "12px" }}>
+                  /۰۵
+                </h4>
+
+                <h1
+                  className="totalnumslide"
+                  style={{ fontFamily: "irSansWebFA" }}
+                  id="totalnumslideId"
+                >
+                  ۰{Count}
+                </h1>
+              </div>
             </div>
           </div>
 
           <div className="black" style={blackSty}>
-              <p className="blackpersian">گروه شرکت های پرهام کیش</p>
-           
-              <div className="whiteline"></div>
-          
+            <p className="blackpersian">گروه شرکت های پرهام کیش</p>
+
+            <div className="whiteline"></div>
+
             <div className="containImag">
-              <a href="" className="margintopper">
+              <a className="margintopper">
                 <svg
                   href="https://www.instagram.com/parhamkish.ir/"
                   xmlns="http://www.w3.org/2000/svg"
@@ -169,10 +169,13 @@ export default function HomeFa() {
                   <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
                 </svg>
               </a>
-              <a href="" className="margintopper">
+              <a className="margintopper">
                 <FaTelegramPlane />
               </a>
-              <a href="https://www.instagram.com/parhamkish.ir/" className="margintopper">
+              <a
+                href="https://www.instagram.com/parhamkish.ir/"
+                className="margintopper"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -187,8 +190,7 @@ export default function HomeFa() {
 
           <Navbarr />
         </div>
-          <SliderHeader1 style={{ overflow: "hidden" }} />
-      
+        <SliderHeader1 style={{ overflow: "hidden" }} />
       </div>
 
       <About />

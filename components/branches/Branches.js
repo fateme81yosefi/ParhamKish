@@ -172,7 +172,7 @@ export default function Branches() {
             </div>
             <div className="contAddressLine">
               {LangId === "fa" ? (
-                <span className="city teh boldtxt"> :تهران</span>
+                <span className="city teh boldtxt cityFa"> :تهران</span>
               ) : (
                 <span className="city teh boldtxt"> :Tehran </span>
               )}
@@ -180,23 +180,15 @@ export default function Branches() {
               {LangId === "fa" ? (
                 <span className="address addressFa teh">
                   {" "}
-                  <span> سعادت آباد</span>
-                  <span> ، </span>
+                  <span>سعادت آباد</span>
+                  <span>  ،</span>
                   <span> ساختمان </span>
                   <span> اریکه </span>
                   <span> ایرانیان</span>
                 </span>
               ) : (
                 <span className="address teh">
-                  <span>Arike</span>
-                  <span>Iranian</span>
-                  <span>bldg</span>
-                  <span>,</span>
-                  <span>Saadat</span>
-                  <span>Abad</span>
-                  <span>quarter</span>
-                  <span>,</span>
-                  <span>Tehran</span>
+                Arike Iranian bldg, Saadat Abad quarter, Tehran
                 </span>
               )}
             </div>
@@ -250,7 +242,7 @@ export default function Branches() {
             </div>
             <div className="contAddressLine">
               {LangId === "fa" ? (
-                <span className="city mash boldtxt" id="mashhad">
+                <span className="city mash boldtxt cityFa" id="mashhad">
                    :مشهد  
                 </span>
               ) : (
@@ -261,25 +253,18 @@ export default function Branches() {
 
               {LangId === "fa" ? (
                 <span className="address addressFa mash">
-                  <span>خیابان</span>
-                  <span>،سناباد </span>
+                  <span> خیابان</span>
+                  <span> سناباد، </span>
                   <span>بلوار</span>
-                  <span>،مجد</span>
+                  <span> مجد، </span>
                   <span>مجد</span>
-                  <span>،۱</span>
+                  <span>۱، </span>
                   <span>پلاک</span>
                   <span>۸</span>
                 </span>
               ) : (
                 <span className="address mash">
-                  {" "}
-                  <span>.No</span>
-                  <span style={{ fontFamily: "irSansWeb" }}>8, </span>
-                  <span>1 st</span>
-                  <span>Majd,</span>
-                  <span>Sanabad</span>
-                  <span>,Ave.</span>
-                  <span>Mashhad</span>
+              No. 8 , 1st Majd, Sanabad Ave. ,Mashhad
                 </span>
               )}
             </div>
@@ -327,7 +312,7 @@ export default function Branches() {
             </div>
             <div className="contAddressLine">
               {LangId === "fa" ? (
-                <span className="city kish boldtxt"> : کیش  </span>
+                <span className="city kish boldtxt cityFa"> :کیش  </span>
               ) : (
                 <span className="city kish boldtxt">:Kish</span>
               )}
@@ -340,9 +325,7 @@ export default function Branches() {
                 </span>
               ) : (
                 <span className="address kish">
-                  <span>Noavari</span>
-                  <span>,Complex</span>
-                  <span>Kish</span>
+                Noavari Complex , Kish
                 </span>
               )}
             </div>
@@ -394,8 +377,8 @@ export default function Branches() {
             </div>
             <div className="contAddressLine">
               {LangId === "fa" ? (
-                <span className="city qesh boldtxt" id="qeshm">
-                     : قشم  
+                <span className="city qesh boldtxt cityFa" id="qeshm">
+                     :قشم  
                 </span>
               ) : (
                 <span className="city qesh boldtxt" id="qeshmAddress">
@@ -406,17 +389,13 @@ export default function Branches() {
               {LangId === "fa" ? (
                 <span className="address addressFa kish">
                   <span> مجتمع</span>
-                  <span> ،الماس</span>
+                  <span>    الماس،    </span>
                   <span> واحد</span>
                   <span> ۲۰۶</span>
                 </span>
               ) : (
                 <span className="address kish">
-                  <span>.No</span>{" "}
-                  <span style={{ fontFamily: "irSansWeb" }}>,206 </span>
-                  <span>Almas</span>
-                  <span>,Complex</span>
-                  <span>Qeshm</span>
+               No. 206, Almas Complex, Qeshm
                 </span>
               )}
             </div>

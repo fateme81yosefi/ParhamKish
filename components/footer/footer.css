@@ -17,7 +17,7 @@
 }
 .footerTxt {
   width: 100%;
-  direction: rtl;
+  direction: ltr;
   display: flex;
   align-items: center;
   color: #6e6e6e;

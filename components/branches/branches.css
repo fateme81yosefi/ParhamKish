@@ -41,7 +41,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding: 3rem;
+  padding: 2rem;
   color: white;
   border-radius: 18px;
   font-size: 9px;
@@ -65,7 +65,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   font-size: 11px;
 }
 .rowArtificial .col-4 {
@@ -83,20 +83,20 @@
 .rowArtificLast {
   margin-bottom: 0 !important;
 }
-.rowArtificial{
+.rowArtificial {
   font-size: 10px;
 }
-.contAddressLine{
+.contAddressLine {
   display: flex;
-flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
-.contant{
+.contant {
   display: flex;
   flex-direction: row;
 }
-.contNumberLine{
+.contNumberLine {
   display: flex;
-  flex-direction: row ;
+  flex-direction: row;
 }
 .contNumberLine {
   display: flex;
@@ -107,6 +107,28 @@ flex-direction: row-reverse;
   justify-content: space-between;
   display: flex;
   flex-direction: row-reverse;
+}
+.address span {
+  margin-right: 2px;
+}
+.contantFa {
+  flex-direction: row;
+}
+.rowArtificial {
+  margin: 5px 0;
+}
+.contNumberLine {
+  width: 90px;
+}
+.contant {
+  width: 100%;
+}
+.rowArtificial {
+  font-size: 10px;
+}
+.city{
+  margin:0 3px;
+
 }
 @media screen and (min-width: 368px) {
   .city3 {
@@ -123,6 +145,9 @@ flex-direction: row-reverse;
 
   .cityy {
     width: 9px;
+  }
+  .rowArtificial {
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 440px) {
@@ -148,8 +173,21 @@ flex-direction: row-reverse;
   }
 }
 @media screen and (min-width: 500px) {
+  .contNumberLine {
+    width: 110px;
+  }
+  .addressFa {
+    font-size: 13px;
+  }
+  .contantFa {
+    font-size: 13px;
+  }
+  .cityFa {
+    font-size: 13px;
+  }
   .rowArtificial {
     flex-direction: row;
+    
   }
   .city3 {
     right: 20px;
@@ -166,6 +204,9 @@ flex-direction: row-reverse;
     top: 38px;
     right: 3px;
   }
+  .infoAddress {
+    padding: 2.5rem;
+  }
 }
 
 @media screen and (min-width: 550px) {
@@ -173,8 +214,14 @@ flex-direction: row-reverse;
     top: 42px;
     right: 6px;
   }
+  .rowArtificial {
+    font-size: 11px;
+  }
 }
 @media screen and (min-width: 768px) {
+  .contNumberLine {
+    width: 130px;
+  }
   .city2 {
     top: 16px;
     right: 37px;
@@ -190,6 +237,9 @@ flex-direction: row-reverse;
   .city4 {
     top: 56px;
     right: 11px;
+  }
+  .rowArtificial {
+    font-size: 13px;
   }
 }
 @media screen and (min-width: 776px) {
@@ -210,6 +260,9 @@ flex-direction: row-reverse;
   }
 }
 @media screen and (min-width: 992px) {
+  .contNumberLine {
+    width: 100px;
+  }
   .infoAddress {
     width: 53%;
     margin-right: 42%;
@@ -221,6 +274,7 @@ flex-direction: row-reverse;
     width: 50%;
     margin-right: 51%;
     margin-top: -34%;
+    padding: 3rem;
   }
   .cityy {
     width: 12px;
@@ -242,12 +296,21 @@ flex-direction: row-reverse;
     top: 77px;
     right: 11px;
   }
- 
+
   .contant {
     text-align: justify;
   }
+  .rowArtificial {
+    font-size: 10px;
+  }
 }
 @media screen and (min-width: 1200px) {
+  .addressFa {
+    font-size: 14px;
+  }
+  .contantFa {
+    font-size: 14px;
+  }
   .cityy {
     width: 18px;
   }
@@ -267,48 +330,62 @@ flex-direction: row-reverse;
     top: 89px;
     right: 11px;
   }
+  .rowArtificial {
+    font-size: 12.5px;
+  }
+  .contNumberLine {
+    width: 115px;
+  }
 }
-
+@media screen and (min-width: 1600px) {
+  .rowArtificial {
+    margin: 0;
+  }
+}
 @media screen and (min-width: 1400px) {
   .address {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 290px;
     flex-direction: row-reverse;
   }
-  .contAddressLine {
+  /* .contAddressLine {
     width: 290px;
     display: flex;
     flex-direction: row-reverse;
   }
-  .contNumberLine{
-    width: 110px;
+  .contNumberLine {
+    width: 150px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-
+  } */
+  .addressFa span {
+    /* width: 215px; */
+    /* display:inline-block ; */
+    direction: rtl;
   }
-  .addressFa{
-    width: 215px;
-
+  .cityFa {
+    font-size: 14px;
   }
-  .contant {
-    width: 110px;
+  .addressFa {
+    font-size: 14px;
+  }
+  /* .contant {
+    width: 100%;
     justify-content: space-between;
     display: flex;
     flex-direction: row-reverse;
     margin-left: 11px;
-
   }
-  .city{
+  .contantFa {
+    width: 140px;
+  } */
+  .city {
     margin-right: 5px;
     margin-left: 5px;
-
   }
-  .contantFa{
+  .contantFa {
     flex-direction: row;
-
   }
 
   .cityy {
@@ -329,10 +406,14 @@ flex-direction: row-reverse;
   .rowArtificial {
     flex-direction: row;
     text-align: end !important;
+    font-size: 12px;
   }
   .city4 {
     top: 106px;
     right: 23px;
     top: 89px;
+  }
+  .address span {
+    /* margin-right: 4px; */
   }
 }

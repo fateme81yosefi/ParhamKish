@@ -10,11 +10,12 @@
   border: none;
   color: white;
   font-weight: 100 !important;
-  font-family: 'irSansUltraLight';
-
+  font-family: "irSansUltraLight";
 }
 .imgInSliderHead {
+  /* object-position: 0px -1px; */
   object-fit: cover;
+
 }
 .contButtonSlider {
   position: absolute;
@@ -23,32 +24,60 @@
   transform: translate(50%, -80%);
   z-index: 12;
   direction: rtl;
-  font-family: 'irSansUltraLight';
+  font-family: "irSansUltraLight";
 }
 .prev-fa {
   transition: 1s margin-left;
   margin-left: 10px;
   font-weight: 100 !important;
-  font-family: 'irSansUltraLight' ;
-
+  font-family: "irSansUltraLight";
 }
 
 .next-en {
   transition: 1s margin-right;
   margin-right: 10px;
   font-weight: 100 !important;
-  font-family: 'irSansUltraLight';
-
+  font-family: "irSansUltraLight";
 }
 .btnSlider {
   font-weight: 100 !important;
 }
+
+.transition1 {
+  /* transition: 1s; */
+   animation: example; 
+   animation-duration: 2s;
+
+
+}
+.transition2 {
+  /* transition: 1s; */
+  animation: example;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  /* animation-delay: 1s; */
+}
+
+@keyframes example {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+
 @keyframes slidebg {
   to {
     background-position: 20vw;
   }
 }
 @media screen and (min-width: 1024px) {
+ 
   .contButtonSlider {
     top: 50%;
     right: 14vw;
@@ -56,6 +85,11 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .imgInSliderHead {
+    object-position: 0px -24px;
+    object-fit: cover;
+  
+  }
   .contButtonSlider {
     top: 50%;
     right: 19vw;

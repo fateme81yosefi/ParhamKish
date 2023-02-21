@@ -90,7 +90,7 @@ export default function Ecom() {
           <div className="col-4 lineall"></div>
         </div>
         <div className="row">
-          <div className="col-xs-12 col-md-6 ecomDisplay ecomDisplayRight">
+          <div className="col-xs-12 col-md-5 col-xl-6 ecomDisplay ecomDisplayRight">
             <div className="maskEcom">
               <motion.div
                 ref={ref}
@@ -105,7 +105,7 @@ export default function Ecom() {
               </motion.div>
             </div>
           </div>
-          <div className="col-xs-12 col-md-6 ecomDisplay ecomDisplayLeft">
+          <div className="col-xs-12 col-md-7 col-xl-6 ecomDisplay ecomDisplayLeft">
             {LangId === "fa" ? (
               <span
                 className="titleEcNum titleEcNumFa"
@@ -126,12 +126,12 @@ export default function Ecom() {
             <br></br>
 
             {LangId === "fa" ? (
-              <span className="titleEcdesc titleEcdescFa">
-                (: با شماره گیری این کد، عضو خانواده ایکام شوید
+              <span className="titleEcdesc titleEcdescFa" style={{direction:"rtl"}}>
+                 با شماره گیری این کد، عضو خانواده پرهام شوید :)
               </span>
             ) : (
-              <span className="titleEcdesc ">
-                By dialing this code, become a member of the Ecom family (;
+              <span className="titleEcdesc" >
+                By dialing this code, become a member of the Ecom family ;)
               </span>
             )}
           </div>

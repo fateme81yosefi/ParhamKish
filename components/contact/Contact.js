@@ -116,10 +116,7 @@ export default function Contact() {
                   Contact Us :
                 </h6>
                 <p style={styleef} className="contactparagraph">
-                  Dear users, you can use the form below Or the contact
-                  information of Parham Kish company, opinions, criticisms and
-                  suggestions Express yourself and help us reach the goals of
-                  the site:
+                  Dear users, you can express your opinions,  criticisms and suggestions by using the form below or the contact information of Parham Kish Company and help us to achive the goals of the site:
                 </p>
               </span>
             )}

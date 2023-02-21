@@ -6,7 +6,7 @@
   font-size: 0.9rem;
   padding: 0;
   line-height: 2rem;
-  padding-top: 10%;
+  /* padding-top: 10%; */
 }
 
 .lineall {
@@ -18,7 +18,7 @@
   margin-top: -8%;
 }
 .contain2colAbout {
-  display: flex;
+  display: none;
   flex-direction: column-reverse;
 }
 .titleAbout p {
@@ -41,6 +41,8 @@
 .aboutTxt p {
   width: 90%;
   height: 100%;
+  margin: 0;
+
 }
 .headlitt {
   font-family: "irSansWebBolder";
@@ -68,12 +70,29 @@
 .imgAbout img {
   width: 89% !important;
 }
+.contain2colAbout{
+  padding-top:10% ;
+}
+.contain2colAboutSm{
+  color: white;
+    font-size: 0.9rem;
+    padding: 0;
+    line-height: 2rem;
+    padding: 25px;
+}
 @media screen and (min-width: 768px) {
   .imgAbout img {
     width: 94% !important;
   }
 }
 @media screen and (min-width: 992px) {
+  .contain2colAbout {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contain2colAboutSm{
+    display: none;
+  }
   .fa-about {
     padding-left: 31px !important;
   }
