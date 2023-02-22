@@ -77,19 +77,18 @@
   filter: brightness(100%) !important;
   border-radius: 50%;
 }
-.headlitt{
-  font-family: 'irSansWebBolder';
- font-size: 1.5rem !important;
+.headlitt {
+  font-family: "irSansWebBolder";
+  font-size: 1.5rem !important;
 }
-.headlitt span{
-  font-family: 'irSansWebBolder';
- font-size: 1.5rem !important;
+.headlitt span {
+  font-family: "irSansWebBolder";
+  font-size: 1.5rem !important;
 }
 @media screen and (min-width: 440px) {
   .logoProject {
     top: 86%;
     left: 5%;
-
   }
 }
 
@@ -106,24 +105,23 @@
   .logoProject img {
     height: 85px;
   }
-  .logoProject{
-    top:84%;
-    left:5%;
+  .logoProject {
+    top: 84%;
+    left: 5%;
   }
 }
 
 @media screen and (min-width: 900px) {
-   .logoProject {
+  .logoProject {
     top: 87%;
     left: 5%;
-}
+  }
 }
 
 @media screen and (min-width: 992px) {
   .row1 {
     flex-direction: row;
   }
- 
 }
 @media screen and (min-width: 992px) {
   .logoProject img {
@@ -147,12 +145,11 @@
   }
   .logoProject p {
     font-size: medium;
-}
-.logoProject{
-  top:89%;
-}
-.projlitttiltle{
-  margin-bottom: 6% !important;
-
-}
+  }
+  .logoProject {
+    top: 89%;
+  }
+  .projlitttiltle {
+    margin-bottom: 6% !important;
+  }
 }

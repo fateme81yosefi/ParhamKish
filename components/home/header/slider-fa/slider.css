@@ -15,7 +15,6 @@
 .imgInSliderHead {
   /* object-position: 0px -1px; */
   object-fit: cover;
-
 }
 .contButtonSlider {
   position: absolute;
@@ -45,10 +44,8 @@
 
 .transition1 {
   /* transition: 1s; */
-   animation: example; 
-   animation-duration: 2s;
-
-
+  animation: example;
+  animation-duration: 2s;
 }
 .transition2 {
   /* transition: 1s; */
@@ -70,14 +67,17 @@
   }
 }
 
-
 @keyframes slidebg {
   to {
     background-position: 20vw;
   }
 }
+@media screen and (min-width: 400px) {
+  .btnSliderFa {
+    margin-left: 30px !important;
+  }
+}
 @media screen and (min-width: 1024px) {
- 
   .contButtonSlider {
     top: 50%;
     right: 14vw;
@@ -88,7 +88,6 @@
   .imgInSliderHead {
     object-position: 0px -24px;
     object-fit: cover;
-  
   }
   .contButtonSlider {
     top: 50%;

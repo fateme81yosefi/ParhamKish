@@ -3,6 +3,7 @@
 }
 .imageProduct {
   width: 80%;
+  margin-top: 1rem;
 }
 .logoIm {
   margin-bottom: 20px;
@@ -61,7 +62,6 @@
   width: 80%;
   height: 100%;
   line-height: 1.8rem;
-
 }
 .productImage div {
   width: 100%;
@@ -82,6 +82,7 @@
 @media screen and (min-width: 992px) {
   .imageProduct {
     width: 100%;
+    margin-top: 0;
   }
   .lineproducts {
     display: block;
@@ -109,12 +110,10 @@
   .productTxtEven {
     padding-left: 0;
     padding-right: 32px;
-
   }
   .productTxtOdd {
     padding-right: 0;
     padding-left: 24px;
-
   }
 
   .logoIm {
@@ -122,8 +121,6 @@
     width: 100%;
     justify-content: right;
   }
-
-
 }
 @media screen and (min-width: 1200px) {
   .productText p {
@@ -133,11 +130,10 @@
 }
 @media screen and (min-width: 1400px) {
   .productText p {
-    font-size: .9em;
+    font-size: 0.9em;
     line-height: 2rem;
   }
-  .prodBig h1{
+  .prodBig h1 {
     margin-top: 6.5rem;
-
   }
 }

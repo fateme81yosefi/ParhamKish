@@ -11,11 +11,8 @@ export default function Contact() {
     direction: LangId === "fa" ? "rtl" : "ltr",
   };
 
-  const styleSetEng = {
-    padding:
-      LangId === "en" && window.innerWidth > 500 && window.innerWidth < 992
-        ? "0px"
-        : "10px",
+  const deletepaddin = {
+    paddingLeft: LangId === "en" && window.innerWidth > 992 ? "0" : "",
   };
 
   const styleBoldText = {
@@ -97,26 +94,29 @@ export default function Contact() {
           )}
         </div>
         <div className="cont row">
-          <div className="contactUs col-xs-12 col-lg-4">
+          <div className="contactUs col-xs-12 col-lg-4" style={deletepaddin}>
             {LangId === "fa" ? (
-              <span style={styleef}>
+              <span style={styleef} className="contactUsFa">
                 <h6 style={styleef} className="boldtxt">
                   تماس با ما :
                 </h6>
                 <p style={styleef} className="contactparagraph">
                   کاربران عزیز می‌توانند با استفاده از فرم ذیل و یا اطلاعات تماس
                   شرکت پرهام کیش، نظرات، انتقادات و پیشنهادات خود را بیان نموده
-                   و ما را در جهت رسیدن به اهداف سایت یاری دهند : 
+                  و ما را در جهت رسیدن به اهداف سایت یاری دهند :
                 </p>
               </span>
             ) : (
-              <span style={styleef}>
+              <span style={styleef} className="contactUsEn">
                 <h6 style={styleef} className="boldtxt">
                   {" "}
                   Contact Us :
                 </h6>
                 <p style={styleef} className="contactparagraph">
-                  Dear users, you can express your opinions,  criticisms and suggestions by using the form below or the contact information of Parham Kish Company and help us to achive the goals of the site:
+                  Dear users, you can express your opinions, criticisms and
+                  suggestions by using the form below or the contact information
+                  of Parham Kish Company and help us to achive the goals of the
+                  site:
                 </p>
               </span>
             )}
@@ -219,6 +219,67 @@ export default function Contact() {
                 <button className="send"> send Message</button>
               )}
             </div>
+          </div>
+          <div className="containInputSmall">
+            {LangId === "fa" ? (
+              <input type="text" placeholder="نام " style={styleef} />
+            ) : (
+              <input type="text" placeholder="First Name " style={styleef} />
+            )}
+            {LangId === "fa" ? (
+              <input type="text" placeholder="نام خانوادگی" style={styleef} />
+            ) : (
+              <input type="text" placeholder="Last Name " style={styleef} />
+            )}
+            {LangId === "fa" ? (
+              <input
+                type="email"
+                placeholder="پست الکترونیک "
+                style={styleef}
+              />
+            ) : (
+              <input type="email" placeholder="Email  " style={styleef} />
+            )}
+            {LangId === "fa" ? (
+              <input
+                type="tel"
+                placeholder="موبایل *"
+                required
+                style={styleef}
+              />
+            ) : (
+              <input
+                type="tel"
+                placeholder="Phone Number * "
+                required
+                style={styleef}
+              />
+            )}
+
+            {LangId === "fa" ? (
+              <textarea
+                type="text"
+                placeholder=" متن پیام*  "
+                required
+                style={styleef}
+              />
+            ) : (
+              <textarea
+                required
+                type="text"
+                placeholder="Message *  "
+                style={styleef}
+                className="messageTxt"
+              />
+            )}
+
+            {LangId === "fa" ? (
+              <button className="sendSmall">
+                <span>←</span>ارسال پیام{" "}
+              </button>
+            ) : (
+              <button className="sendSmall"> send Message</button>
+            )}
           </div>
         </div>
       </div>

@@ -26,9 +26,8 @@
   font-family: irSansWebBold;
   line-height: 5.5rem;
   font-family: irSansWebBolder !important;
- 
 }
-.parhamTitle1 b{
+.parhamTitle1 b {
   font-family: irSansWebBolder !important;
 }
 .textContainer h2 {
@@ -38,7 +37,6 @@
   font-weight: bolder;
   line-height: 3rem;
   font-family: irSansWebBolder !important;
-
 }
 .paraInHead {
   height: 50vw;
@@ -74,9 +72,8 @@
 }
 .spec1 {
   font-size: 0.8rem;
-
 }
-.headerInLarger{
+.headerInLarger {
   display: none;
 }
 @keyframes textclip {
@@ -102,23 +99,18 @@
 @media screen and (min-width: 500px) {
   .textContainer h1 {
     font-size: 4.5rem;
-
   }
-  .spec{
+  .spec {
     font-size: 1.3rem;
-
-
   }
 }
 @media screen and (min-width: 600px) {
   .textContainer h1 {
     font-size: 5.9rem;
     line-height: 7.5rem;
-
   }
-  .spec{
+  .spec {
     font-size: 1.7rem;
-
   }
 }
 @media screen and (min-width: 700px) {
@@ -134,20 +126,19 @@
     padding: 0 10px !important;
     margin: 0 !important;
     left: 30px;
-   }
-  .fa-menue-ul li{
-   width: 100%;
-   padding: 0 10px !important;
-   margin: 0 !important;
+  }
+  .fa-menue-ul li {
+    width: 100%;
+    padding: 0 10px !important;
+    margin: 0 !important;
   }
   .textContainer h1 {
     font-size: 6.6rem;
     line-height: 8rem;
     white-space: nowrap;
   }
-  .spec{
+  .spec {
     font-size: 2rem;
-
   }
 }
 
@@ -161,9 +152,8 @@
     font-size: 5.1rem;
     line-height: 8rem;
   }
-  .spec{
+  .spec {
     font-size: 1.45rem;
-
   }
 }
 @media screen and (min-width: 870px) {
@@ -180,12 +170,12 @@
     font-size: 6.8rem;
     line-height: 8.5rem;
   }
-  .textContainer{
+  .textContainer {
     top: 12vh;
     width: 56%;
     left: 8%;
   }
-  .spec{
+  .spec {
     font-size: 2rem;
   }
 }
@@ -228,19 +218,17 @@
   }
 }
 @media screen and (min-width: 1200px) {
- 
   .textContainer {
     top: 0;
     left: 16%;
     left: 6%;
     width: 60%;
   }
-  .textContainer h1{
+  .textContainer h1 {
     height: 250px;
     letter-spacing: -11px;
     font-size: 10rem !important;
     padding: 64px 16px !important;
-
   }
   .ulcollection {
     list-style: none;
@@ -252,46 +240,44 @@
   .rs-icon {
     margin-right: 14px;
     margin-left: -15px;
-}
-  .absoluting{
+  }
+  .absoluting {
     position: absolute;
   }
-  .ulcollectionEn li{
-    margin-left: 35px;
+  .ulcollectionEn li {
+    margin-left: 22px;
   }
-  .ulcollectionfa li{
-    margin-left: 34px;
+  .ulcollectionfa li {
+    margin-left: 22px;
   }
-  .headerInLarger{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   margin-top: 70px;
-  position: relative;
-  z-index: 234;
+  .headerInLarger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    position: relative;
+    z-index: 234;
   }
-  .headerInLargerFa{
+  .headerInLargerFa {
     margin-top: 47px;
-
   }
-  .fa-drop-first{
-    margin-right: -15px;
+  .fa-drop-first {
+    margin-right: -10px !important;
   }
 }
 @media screen and (min-width: 1221px) {
-  .textContainer h1{
+  .textContainer h1 {
     height: 250px;
     letter-spacing: -11px;
     font-size: 11rem !important;
     padding: 64px 16px !important;
-
   }
-  .spec{
+  .spec {
     font-size: 2.7rem;
   }
 }
 @media screen and (min-width: 1400px) {
-  .textContainer h1{
+  .textContainer h1 {
     font-size: 11rem !important;
   }
   .textContainer {
@@ -299,14 +285,21 @@
     left: 11%;
     width: 56%;
   }
-  .headerLogo{
+  .headerLogo {
     display: flex !important;
   }
-  .textContainer h1{
+  .textContainer h1 {
     font-size: 11rem !important;
   }
   .containBlackImage {
     width: 215px !important;
+  }
+  .ulcollectionEn li {
+    margin-left: 34px;
+  }
+
+  .ulcollectionfa li {
+    margin-right: 7px;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -318,10 +311,13 @@
     left: 20%;
     width: 56%;
   }
-  .textContainer h1{
+  .textContainer h1 {
     font-size: 12rem !important;
   }
   .spec {
     font-size: 3rem;
-}
+  }
+  .ulcollectionfa li {
+    margin-right: 12px;
+  }
 }

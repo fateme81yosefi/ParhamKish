@@ -47,6 +47,18 @@
 
 @media screen and (min-width: 1200px) {
   .contButtonSlideren {
+    left: 150px;
+    margin-top: -82vh;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .contButtonSlideren {
+    left: 180px;
+    margin-top: -82vh;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .contButtonSlideren {
     left: 180px;
     margin-top: -82vh;
   }

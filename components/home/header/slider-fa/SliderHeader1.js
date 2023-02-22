@@ -53,7 +53,7 @@ export default class SliderHeader1 extends Component {
               currSlide={this.state.currSlide}
             />
           </div>
-           <div>
+          <div>
             <img
               alt="sliderImage2"
               className="imgInSliderHead"
@@ -66,8 +66,8 @@ export default class SliderHeader1 extends Component {
               slideID={1}
               currSlide={this.state.currSlide}
             />
-          </div> 
-         <div>
+          </div>
+          <div>
             <img
               alt="sliderImage3"
               className="imgInSliderHead"
@@ -80,7 +80,7 @@ export default class SliderHeader1 extends Component {
               slideID={2}
               currSlide={this.state.currSlide}
             />
-          </div> 
+          </div>
           <div>
             <img
               alt="sliderImage3"
@@ -108,7 +108,7 @@ export default class SliderHeader1 extends Component {
               slideID={4}
               currSlide={this.state.currSlide}
             />
-          </div>  
+          </div>
         </Slider>
 
         <Butt {...this} />

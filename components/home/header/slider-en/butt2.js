@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import { CountContext } from "../../../../shared/LanguageContext";
 import styled from "styled-components";
 
@@ -10,25 +10,27 @@ export default function Butt2(props) {
       setCount(1);
     } else setCount(Count + 1);
   };
+
   const prevPage1 = () => {
     if (Count === 1) {
       setCount(5);
     } else setCount(Count - 1);
   };
 
+  const interval = useRef();
+
+
   const DIV = styled.div`
-  .btnSlideren{
-    font-weight:100 !important;
-  }
+    .btnSlideren {
+      font-weight: 100 !important;
+    }
 
     .btnSlideren:hover {
       .prev-fa1 {
         margin-right: 13px !important;
-
       }
       .next-en1 {
         margin-left: 13px !important;
-
       }
     }
   `;
@@ -43,7 +45,6 @@ export default function Butt2(props) {
         }}
       >
         <span className="prev-fa1">&#8592;</span>Previous
-
       </button>
       <button
         className="btnSlideren"
@@ -53,10 +54,8 @@ export default function Butt2(props) {
           props.next();
         }}
         style={{ marginLeft: "30px" }}
-
       >
-       Next <span className="next-en1"> &#8594;</span>
-
+        Next <span className="next-en1"> &#8594;</span>
       </button>
     </DIV>
   );

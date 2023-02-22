@@ -34,6 +34,7 @@ export default function HomeFa() {
   }, []);
 
   const interval = useRef();
+  const timeoutFunction = useRef({});
   const show = () => {
     if (window.innerWidth < 1200 && LangId === "en") setleftmarginer("13vw");
     else if (
@@ -87,14 +88,12 @@ export default function HomeFa() {
   };
 
   useEffect(() => {
-
-    document.getElementById("totalnumslideId").classList.add("transition1");
-    // document.getElementById("totalnumslideId").classList.toggle("transition2");
-
+    // document.getElementById("totalnumslideId").classList.remove("fade");
     interval.current = setInterval(() => {
       setCount((x) => (x + 1 > 5 ? 1 : x + 1));
-      document.getElementById("totalnumslideId").classList.remove("transition1");
-
+      // document.getElementById("totalnumslideId").classList.add("unFade");
+      // document.getElementById("totalnumslideId").classList.add("fade");
+      // document.getElementById("totalnumslideId").classList.add("unFade");
     }, 5000);
 
     return () => {

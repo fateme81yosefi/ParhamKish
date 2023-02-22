@@ -25,8 +25,12 @@ export default function Projects() {
 
   return (
     <Fragment>
-      <div className="containProjects" id="projects" style={{ overflow: "hidden" }}>
-        <div className="container containerEditMax" >
+      <div
+        className="containProjects"
+        id="projects"
+        style={{ overflow: "hidden" }}
+      >
+        <div className="container containerEditMax">
           <div className="row titleAbout">
             <div className="col-4 lineall"></div>
             <div className="col-4 lineall"></div>
@@ -37,7 +41,7 @@ export default function Projects() {
               </p>
             ) : (
               <p className="headlitt projlitttiltle">
-                 <span className="parhamColor">Parham Kish</span> projects
+                <span className="parhamColor">Parham Kish</span> projects
               </p>
             )}
           </div>

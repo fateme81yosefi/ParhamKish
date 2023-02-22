@@ -126,9 +126,16 @@
 .rowArtificial {
   font-size: 10px;
 }
-.city{
-  margin:0 3px;
-
+.city {
+  margin: 0 3px;
+}
+.contAddressLine {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.address {
+  white-space: nowrap;
 }
 @media screen and (min-width: 368px) {
   .city3 {
@@ -147,7 +154,12 @@
     width: 9px;
   }
   .rowArtificial {
-    font-size: 10px;
+    font-size: 11.5px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .contAddressLine {
+    flex-direction: row-reverse;
   }
 }
 @media screen and (min-width: 440px) {
@@ -187,7 +199,7 @@
   }
   .rowArtificial {
     flex-direction: row;
-    
+    font-size: 10px;
   }
   .city3 {
     right: 20px;
@@ -331,7 +343,7 @@
     right: 11px;
   }
   .rowArtificial {
-    font-size: 12.5px;
+    font-size: 11.5px;
   }
   .contNumberLine {
     width: 115px;

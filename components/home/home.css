@@ -107,38 +107,19 @@
   /* animation: example;
   animation-duration: 2s;
   animation-iteration-count: 1; */
-  /* opacity: 1; */
+  opacity: 1;
   margin-bottom: 25px;
+  transition: 1s all;
 }
-.transition1 {
-  /* transition: 1s; */
-   animation: example; 
-   animation-duration: 2s;
-
-
-}
-.transition2 {
-  /* transition: 1s; */
-  animation: example;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  /* animation-delay: 1s; */
-}
-
-@keyframes example {
-  0% {
-    transform: translateY(-20px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-.opzero {
+.fade {
+  transform: translateY(-20px);
   opacity: 0;
 }
+.unFade {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 .responsiveblackFa {
   right: 13vw;
 }
@@ -245,7 +226,7 @@
 }
 @media screen and (min-width: 1328px) {
   .textContainer1 {
-    width: 70%;
+    width: 63%;
     left: 37%;
   }
   .containBlackImageEn {
@@ -259,7 +240,7 @@
     line-height: 3rem;
   }
   .headerInLargeren {
-    left: -190px;
+    left: -168px;
   }
 }
 
@@ -297,10 +278,15 @@
     flex-direction: row-reverse;
     margin-right: 13% !important;
   }
+  .textContainer1 {
+    left: 35%;
+    width: 65%;
+  }
 }
 @media screen and (min-width: 1500px) {
   .textContainer1 {
-    left: 30%;
+    left: 33%;
+    width: 68%;
   }
   .textContainer1 h1 b {
     font-size: 9rem;
@@ -338,5 +324,9 @@
   }
   .blackbigax {
     margin-top: 10px;
+  }
+  .textContainer1 {
+    left: 30%;
+    width: 70%;
   }
 }

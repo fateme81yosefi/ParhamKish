@@ -1,37 +1,21 @@
-import React, { useContext, useRef, useEffect } from "react";
+import React, { useContext } from "react";
 import { CountContext } from "../../../../shared/LanguageContext";
 import styled from "styled-components";
 
 export default function Butt(props) {
   const [Count, setCount] = useContext(CountContext);
 
-  const interval = useRef();
-
   const nextPage = () => {
     if (Count === 5) {
       setCount(1);
     } else setCount(Count + 1);
-  }
-  
+  };
+
   const prevPage = () => {
     if (Count === 1) {
       setCount(5);
     } else setCount(Count - 1);
   };
-
-  useEffect(() => {
-
-    document.getElementById("totalnumslideId").classList.add("transition1");
-
-    interval.current = setInterval(() => {
-      document.getElementById("totalnumslideId").classList.remove("transition1");
-    }, 5000);
-
-    return () => {
-      clearInterval(interval.current);
-    };
-
-  }, [Count]);
 
   const DIV = styled.div`
     .btnSlider {
@@ -49,12 +33,12 @@ export default function Butt(props) {
   return (
     <DIV className="contButtonSlider">
       <button
-        className="btnSlider"
+        className="btnSlider btnSliderFa"
         onClick={() => {
           prevPage();
           props.previous();
         }}
-        style={{ marginLeft: "30px" }}
+        style={{ marginLeft: "10px" }}
       >
         <span className="prev-fa">&#8594;</span>قبلی
       </button>

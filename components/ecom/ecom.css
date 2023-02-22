@@ -24,7 +24,7 @@
   flex-direction: column;
 }
 .titleEcNum {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #d0ad67;
   font-weight: 900;
   direction: ltr !important;
@@ -35,6 +35,11 @@
   margin-bottom: 10%;
   padding: 0px 30px;
   text-align: center;
+}
+@media screen and (min-width: 400px) {
+  .titleEcNum {
+    font-size: 4rem;
+  }
 }
 @media screen and (min-width: 768px) {
   /* .titleEcNumen{
@@ -103,8 +108,11 @@
   .cvdv {
     width: 100%;
     word-spacing: 0;
-    font-size: .98rem;
+    font-size: 0.98rem;
     text-align: left;
+  }
+  .titleEcdescFa {
+    margin-left: 59px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -120,20 +128,17 @@
     margin-left: 0px;
     font-size: 5rem;
   }
-  .titleEcdescFa{
+  .titleEcdescFa {
     margin-top: -40px;
-    margin-left: 34px;
-
+    margin-left: 57px;
   }
-  .titleEcNum{
+  .titleEcNum {
     /* text-shadow: 7px 0px 0px #d0ad67; */
   }
-  .titleEcNumen{
+  .titleEcNumen {
     margin-top: 192px;
-
   }
-  .titleEcNumFa{
+  .titleEcNumFa {
     margin-top: 12%;
-
   }
 }

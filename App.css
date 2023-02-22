@@ -51,7 +51,7 @@
 
        *{
     font-family: irSansWeb;
-    /* user-select: none; */
+    user-select: none;
   }
   ::-webkit-scrollbar {
     width: 10px;
@@ -73,7 +73,7 @@
     background-color: rgb(208, 173, 103);
     padding: 9px;
     border-radius: 50%;
-    z-index: 112;
+    z-index: 145;
    }
   ::-webkit-scrollbar-thumb {
     background: #2e2e2e; 

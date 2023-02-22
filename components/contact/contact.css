@@ -11,7 +11,7 @@
   line-height: 2rem;
 }
 .responsive-kadr {
-  display: flex;
+  display: none;
   flex-direction: column-reverse;
 }
 .containInput input {
@@ -94,6 +94,53 @@ textarea {
 .boldtxt {
   font-weight: 700;
 }
+
+.containInputSmall {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.containInputSmall input {
+  width: 100%;
+  margin: 10px 0;
+  width: 100%;
+  background-color: #383838;
+  border: 1px solid #383838;
+  margin-top: 10px;
+  border-radius: 8px;
+  /* text-align: right; */
+  padding: 7px 32px;
+  color: white;
+  font-size: 10 !important;
+}
+.containInputSmall input::placeholder {
+  color: white;
+  font-size: 14px;
+}
+.sendSmall {
+  background: #d0ad67;
+  color: white;
+  border: none;
+  border-radius: 21px;
+  padding: 6px 22px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-family: "irSansUltraLight";
+}
+input:focus {
+  outline: none !important;
+  border: 1px solid #d0ad67;
+}
+.contactUs {
+  padding: 0;
+}
+.sendSmall span {
+  margin: 0px 13px;
+}
 @media screen and (min-width: 500px) {
   .paddingleftget {
     padding-right: 12px !important;
@@ -117,6 +164,16 @@ textarea {
   }
 }
 @media screen and (min-width: 992px) {
+  .contactUs {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .containInputSmall {
+    display: none;
+  }
+  .responsive-kadr {
+    display: flex;
+  }
   .lineContact {
     display: block;
   }
